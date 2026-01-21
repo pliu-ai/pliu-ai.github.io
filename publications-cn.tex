@@ -1,0 +1,18 @@
+%% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own
+\makerubrichead{发表论文($*$ 代表共同一作)}
+
+%% Assuming you've already given \addbibresource{own-bib.bib} in the main doc. Right? Right???
+\nocite{*}
+
+%% If you just want everything in one list
+% \printbibliography[heading={none}]
+
+\printbibliography[heading={subbibliography},title={期刊文章},type=article]
+
+\printbibliography[heading={subbibliography},title={会议论文},type=inproceedings]
+
+\printbibliography[heading={subbibliography},title={在审论文},type=unpublished]
+
+\printbibliography[heading={subbibliography},title={在研/拟投},type=inprepare]
+
+\printbibliography[heading={subbibliography},title={书籍章节},filter={booksandchapters}]
