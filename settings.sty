@@ -145,3 +145,32 @@
 
 \RequirePackage[colorlinks=true,allcolors=black,breaklinks=true]{hyperref}
 
+% Avoid repeating rubric titles with "(continued)" when a rubric spans pages.
+\makeatletter
+\renewenvironment{rubric}[1]{%
+  \def\raggedright{\@rightskip\@flushglue\rightskip\@rightskip\leftskip\z@skip}%
+  \def\raggedleft{\rightskip\z@skip\leftskip\@flushglue\parfillskip\z@skip}%
+  \gdef\@beforespace{0pt}%
+  \gdef\@nextentry{}%
+  \gdef\@previouskey{}%
+  \global\let\old@newpage\newpage%
+  \global\let\old@pagebreak\pagebreak%
+  \global\let\old@nopagebreak\nopagebreak
+  \begin{longtable}{@{}kl@{~}X@{}}
+    \@rubrichead{#1}\\*[\rubricspace]
+    \endfirsthead
+    \multicolumn{3}{@{}l@{}}{}\\*[\rubricspace]
+    \endhead
+    \noalign{\@rubricmark{#1}%
+      \global\let\in@newpage\newpage%
+      \global\let\in@pagebreak\pagebreak%
+      \global\let\in@nopagebreak\nopagebreak%
+      \gdef\newpage{\@nextentry\noalign{\gdef\@nextentry{}}\in@newpage}
+      \gdef\pagebreak{\@nextentry\noalign{\gdef\@nextentry{}}\in@pagebreak}
+      \gdef\nopagebreak{\@nextentry\noalign{\gdef\@nextentry{}}\in@nopagebreak}}}{%
+    \@nextentry
+  \end{longtable}\par\vspace\rubricafterspace
+  \global\let\newpage\old@newpage%
+  \global\let\pagebreak\old@pagebreak%
+  \global\let\nopagebreak\old@nopagebreak}
+\makeatother

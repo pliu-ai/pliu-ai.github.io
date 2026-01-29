@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  21 JAN 2026 10:40
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  28 JAN 2026 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2229,6 +2229,9 @@ Package fontspec Info:
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"STFangsong/OT:script=hani;language=dflt;"
 
+Requested font "STFangsong/OT:script=hani;language=dflt;" at 10.95pt
+ -> /System/Library/AssetsV2/com_apple_MobileAsset_Font8/1b6b2f148cdf17dd0d7887
+06c83c61ca1998c3a6.asset/AssetData/STFANGSO.ttf
 Requested font "cmr10" at 10.95pt
  -> /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 Requested font "cmr8" at 8.0pt
@@ -2255,7 +2258,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 97.
 File: photo.jpg Graphic file (type bmp)
 <photo.jpg>
-(./research_interest-cn.tex
+(./overview-cn.tex
 Requested font "[Cochineal-Roman.otf]/OT:script=latn;language=dflt;+pnum;+onum;
 mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2025/texmf-dist/fonts/opentype/public/cochineal/Cochinea
@@ -2272,13 +2275,38 @@ Requested font "STHeiti/OT:script=hani;language=dflt;" at 14.4pt
  -> /System/Library/AssetsV2/com_apple_MobileAsset_Font8/53fe5be564086fefc7523c
 cd0a31200acf92e0e5.asset/AssetData/STHEITI.ttf
 Requested font "[Cochineal-Roman.otf]/OT:script=latn;language=dflt;+pnum;+onum;
+mapping=tex-text;" at 10.0pt
+ -> /usr/local/texlive/2025/texmf-dist/fonts/opentype/public/cochineal/Cochinea
+l-Roman.otf
+Requested font "[FontAwesome5Free-Solid-900.otf]:script=latn;" at 10.0pt
+ -> /usr/local/texlive/2025/texmf-dist/fonts/opentype/public/fontawesome5/FontA
+wesome5Free-Solid-900.otf
+Requested font "STSong/OT:script=hani;language=dflt;" at 10.95pt
+ -> /System/Library/Fonts/Supplemental/Songti.ttc
+) (./overview-cn.tex) (./overview-cn.tex) (./overview-cn.tex) (./research_inter
+est-cn.tex
+Requested font "[Cochineal-Roman.otf]/OT:script=latn;language=dflt;+pnum;+onum;
 mapping=tex-text;" at 12.0pt
  -> /usr/local/texlive/2025/texmf-dist/fonts/opentype/public/cochineal/Cochinea
 l-Roman.otf
-Requested font "STSong/OT:script=hani;language=dflt;" at 12.0pt
- -> /System/Library/Fonts/Supplemental/Songti.ttc
-) (./research_interest-cn.tex)
-(./research_interest-cn.tex) (./research_interest-cn.tex) (./education-cn.tex
+
+! Misplaced \noalign.
+\entry ->\@nextentry \noalign 
+                              \bgroup \gdef \@beforespace {\subrubricbefores...
+l.7 \entry
+          *[]{\textbf{复杂三维生物结构的医学与电镜图像分析：} 面向线粒体、细胞核及多细胞器等复杂三维生物结构，研究其在 CT、P...
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 \entry*[]
+             {\textbf{复杂三维生物结构的医学与电镜图像分析：} 面向线粒体、细胞核及多细胞器等复杂三维生物结构，研究其在 CT、P...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
 Requested font "[Cochineal-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;m
 apping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2025/texmf-dist/fonts/opentype/public/cochineal/Cochinea
@@ -2286,12 +2314,101 @@ l-Bold.otf
 Requested font "STHeiti/OT:script=hani;language=dflt;" at 10.95pt
  -> /System/Library/AssetsV2/com_apple_MobileAsset_Font8/53fe5be564086fefc7523c
 cd0a31200acf92e0e5.asset/AssetData/STHEITI.ttf
-Requested font "STSong/OT:script=hani;language=dflt;" at 10.95pt
- -> /System/Library/Fonts/Supplemental/Songti.ttc
-)
-(./education-cn.tex) (./education-cn.tex) (./education-cn.tex)
-(./employment-cn.tex) (./employment-cn.tex) (./employment-cn.tex)
-(./employment-cn.tex) (./publications-cn.tex
+! Extra }, or forgotten \endgroup.
+l.11 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) (./research_interest-cn.tex
+! Misplaced \noalign.
+\entry ->\@nextentry \noalign 
+                              \bgroup \gdef \@beforespace {\subrubricbefores...
+l.7 \entry
+          *[]{\textbf{复杂三维生物结构的医学与电镜图像分析：} 面向线粒体、细胞核及多细胞器等复杂三维生物结构，研究其在 CT、P...
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 \entry*[]
+             {\textbf{复杂三维生物结构的医学与电镜图像分析：} 面向线粒体、细胞核及多细胞器等复杂三维生物结构，研究其在 CT、P...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+l.11 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) (./research_interest-cn.tex
+! Misplaced \noalign.
+\entry ->\@nextentry \noalign 
+                              \bgroup \gdef \@beforespace {\subrubricbefores...
+l.7 \entry
+          *[]{\textbf{复杂三维生物结构的医学与电镜图像分析：} 面向线粒体、细胞核及多细胞器等复杂三维生物结构，研究其在 CT、P...
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 \entry*[]
+             {\textbf{复杂三维生物结构的医学与电镜图像分析：} 面向线粒体、细胞核及多细胞器等复杂三维生物结构，研究其在 CT、P...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+l.11 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) (./research_interest-cn.tex
+! Misplaced \noalign.
+\entry ->\@nextentry \noalign 
+                              \bgroup \gdef \@beforespace {\subrubricbefores...
+l.7 \entry
+          *[]{\textbf{复杂三维生物结构的医学与电镜图像分析：} 面向线粒体、细胞核及多细胞器等复杂三维生物结构，研究其在 CT、P...
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 \entry*[]
+             {\textbf{复杂三维生物结构的医学与电镜图像分析：} 面向线粒体、细胞核及多细胞器等复杂三维生物结构，研究其在 CT、P...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Extra }, or forgotten \endgroup.
+l.11 }
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) (./education-cn.tex) (./education-cn.tex) (./education-cn.tex)
+(./education-cn.tex [1
+
+]) (./employment-cn.tex) (./employment-cn.tex)
+(./employment-cn.tex) (./employment-cn.tex) (./publications-cn.tex
 Requested font "cmr12" at 14.4pt
  -> /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 Requested font "cmmi12" at 14.4pt
@@ -2302,14 +2419,82 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \subrubric{论文统计}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced \noalign.
+\subrubric #1->\@nextentry \noalign 
+                                    {\gdef \@nextentry {}}\@subrubric {#1}\\...
+l.7 \subrubric{论文统计}
+                    
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.7 \subrubric{论文统计}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \span.
+\sp@n ->\span 
+              \omit \advance \@multicnt \m@ne 
+l.7 \subrubric{论文统计}
+                    
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \omit.
+\sp@n ->\span \omit 
+                    \advance \@multicnt \m@ne 
+l.7 \subrubric{论文统计}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \span.
+\sp@n ->\span 
+              \omit \advance \@multicnt \m@ne 
+l.7 \subrubric{论文统计}
+                    
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \omit.
+\sp@n ->\span \omit 
+                    \advance \@multicnt \m@ne 
+l.7 \subrubric{论文统计}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
 LaTeX Font Info:    Font shape `TU/Cochineal(4)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 10.
+(Font)              scaled to size 12.0pt on input line 7.
 Requested font "[Cochineal-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;m
 apping=tex-text;" at 12.0pt
  -> /usr/local/texlive/2025/texmf-dist/fonts/opentype/public/cochineal/Cochinea
 l-Bold.otf
 LaTeX Font Info:    Font shape `TU/Cabin(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 10.
+(Font)              scaled to size 12.0pt on input line 7.
 Requested font "[Cabin-Bold.otf]/OT:script=latn;language=dflt;mapping=tex-text;
 " at 12.0pt
  -> /usr/local/texlive/2025/texmf-dist/fonts/opentype/impallari/cabin/Cabin-Bol
@@ -2317,45 +2502,54 @@ d.otf
 Requested font "STHeiti/OT:script=hani;language=dflt;" at 12.0pt
  -> /System/Library/AssetsV2/com_apple_MobileAsset_Font8/53fe5be564086fefc7523c
 cd0a31200acf92e0e5.asset/AssetData/STHEITI.ttf
+Requested font "cmr12" at 12.0pt
+ -> /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+Requested font "cmmi12" at 12.0pt
+ -> /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+Requested font "cmsy10" at 12.0pt
+ -> /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
 LaTeX Font Info:    Font shape `TU/Cochineal(4)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 10.
+(Font)              scaled to size 10.95pt on input line 17.
 Requested font "[Cochineal-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onum
 ;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2025/texmf-dist/fonts/opentype/public/cochineal/Cochinea
 l-Italic.otf
 
 
-[1
-
-]
-
-Package biblatex Warning: No driver for 'inprepare'.
-(biblatex)                Using fallback driver on input line 16.
-
-
-Package biblatex Warning: No driver for 'inprepare'.
-(biblatex)                Using fallback driver on input line 16.
-
-
-
 [2]
 
+LaTeX Warning: Empty bibliography on input line 23.
+
+
 Package biblatex Warning: No driver for 'inprepare'.
-(biblatex)                Using fallback driver on input line 16.
+(biblatex)                Using fallback driver on input line 25.
 
 
-LaTeX Warning: Empty bibliography on input line 18.
+
+[3]
+
+Package biblatex Warning: No driver for 'inprepare'.
+(biblatex)                Using fallback driver on input line 25.
+
+
+Package biblatex Warning: No driver for 'inprepare'.
+(biblatex)                Using fallback driver on input line 25.
 
 ) (./awards-cn.tex) (./awards-cn.tex) (./awards-cn.tex) (./awards-cn.tex)
-(./teaching-cn.tex) (./teaching-cn.tex) (./teaching-cn.tex) (./teaching-cn.tex)
-(./reviewer-cn.tex) (./reviewer-cn.tex)
+(./ip-cn.tex) (./ip-cn.tex) (./ip-cn.tex) (./ip-cn.tex) (./teaching-cn.tex)
+(./teaching-cn.tex) (./teaching-cn.tex) (./teaching-cn.tex) (./courses-cn.tex)
+(./courses-cn.tex) (./courses-cn.tex) (./courses-cn.tex
+
+[4]) (./reviewer-cn.tex) (./reviewer-cn.tex)
 
 Package tabularx Warning: X Columns too narrow (table too wide)
-(tabularx)                 on input line 107.
+(tabularx)                 on input line 110.
 
 (./reviewer-cn.tex)
 
-[3] (./cv-cn.aux)
+[5] (./cv-cn.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -2371,12 +2565,12 @@ Package logreq Info: Writing requests to 'cv-cn.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39607 strings out of 473832
- 846956 string characters out of 5729482
- 1751135 words of memory out of 5000000
- 61923 multiletter control sequences out of 15000+600000
- 564987 words of font info for 113 fonts, out of 8000000 for 9000
+ 39851 strings out of 473832
+ 859957 string characters out of 5729482
+ 1762283 words of memory out of 5000000
+ 62137 multiletter control sequences out of 15000+600000
+ 565916 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,9n,117p,1198b,5301s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv-cn.pdf (3 pages).
+Output written on cv-cn.pdf (5 pages).

@@ -4,15 +4,22 @@
 %% Assuming you've already given \addbibresource{own-bib.bib} in the main doc. Right? Right???
 \nocite{*}
 
-%% If you just want everything in one list
-% \printbibliography[heading={none}]
+\subrubric{论文统计}
+\begin{itemize}
+\item SCI期刊论文：5篇；其中已公开 JCR Q1：2篇。
+\item 第一作者/共同一作：4篇（SCI 期刊），MICCAI/MLMI 等会议论文均为主要作者。
+\item MICCAI/MLMI 等国际会议论文：4篇。
+\item EI 会议论文：4篇。
+\item 在审/修回：2篇（Scientific Data、Computerized Medical Imaging and Graphics）。
+\item 在研/拟投：3项（计划投稿 IEEE Transactions on Medical Imaging）。
+\end{itemize}
 
-\printbibliography[heading={subbibliography},title={期刊文章},type=article]
+\printbibliography[heading={subbibliography},title={代表性论文（$\star$）},keyword=rep]
 
-\printbibliography[heading={subbibliography},title={会议论文},type=inproceedings]
+\printbibliography[heading={subbibliography},title={期刊文章},type=article,notkeyword=rep]
 
-\printbibliography[heading={subbibliography},title={在审论文},type=unpublished]
+\printbibliography[heading={subbibliography},title={会议论文},type=inproceedings,notkeyword=rep]
 
-\printbibliography[heading={subbibliography},title={在研/拟投},type=inprepare]
+\printbibliography[heading={subbibliography},title={在审论文},type=unpublished,notkeyword=rep]
 
-\printbibliography[heading={subbibliography},title={书籍章节},filter={booksandchapters}]
+\printbibliography[heading={subbibliography},title={在研/拟投},type=inprepare,notkeyword=rep]
