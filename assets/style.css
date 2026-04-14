@@ -157,6 +157,10 @@ main {
   align-items: stretch;
 }
 
+.hero.no-photo {
+  grid-template-columns: 1fr;
+}
+
 .hero-text,
 .hero-card,
 .panel {
