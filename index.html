@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peng Liu | Personal Website</title>
+    <meta
+      name="description"
+      content="Peng Liu's personal website: research interests, publications, CV, and academic profile."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="orb orb-a" aria-hidden="true"></div>
+    <div class="orb orb-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="logo">Peng Liu</div>
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <a href="#research" data-zh="研究方向" data-en="Research">研究方向</a>
+        <a href="#publications" data-zh="论文" data-en="Publications">论文</a>
+        <a href="#experience" data-zh="经历" data-en="Experience">经历</a>
+        <a href="#contact" data-zh="联系" data-en="Contact">联系</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button type="button" class="lang-btn" data-lang="zh" aria-pressed="false">中</button>
+        <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="top">
+        <div class="hero-text">
+          <p class="kicker" data-zh="波士顿学院 · 博士后研究员" data-en="Boston College · Postdoctoral Researcher">
+            波士顿学院 · 博士后研究员
+          </p>
+          <h1>Peng Liu, Ph.D.</h1>
+          <p
+            class="lead"
+            data-zh="研究方向聚焦 3D 医学影像与电子显微镜分割，强调标签效率、结构先验和可复现评测。"
+            data-en="Research in 3D medical/EM segmentation with a focus on label efficiency, structure-aware modeling, and reproducible benchmarks."
+          >
+            研究方向聚焦 3D 医学影像与电子显微镜分割，强调标签效率、结构先验和可复现评测。
+          </p>
+
+          <ul class="contact-chips" id="contact">
+            <li><a href="mailto:liupen@bc.edu">liupen@bc.edu</a></li>
+            <li><a href="tel:+18575404818">+1 (857) 540-4818</a></li>
+            <li><a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&hl=en" target="_blank" rel="noopener" data-zh="谷歌学术" data-en="Google Scholar">Google Scholar</a></li>
+            <li>Boston, MA, USA</li>
+          </ul>
+        </div>
+
+        <div class="hero-card">
+          <img src="photo.jpg" alt="Portrait of Peng Liu" />
+          <div class="hero-card-content">
+            <p data-zh="当前研究" data-en="Current Focus">当前研究</p>
+            <h2>3D EM Organelle Segmentation</h2>
+            <p
+              data-zh="MitoEM 2.0、CellMap 等任务中的线粒体、细胞核与泛细胞器分析。"
+              data-en="Mitochondria, nuclei, and pan-organelle analysis in benchmark-driven projects such as MitoEM 2.0 and CellMap."
+            >
+              MitoEM 2.0、CellMap 等任务中的线粒体、细胞核与泛细胞器分析。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel reveal" id="research">
+        <div class="section-head">
+          <h2 data-zh="研究方向" data-en="Research Interests">研究方向</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>3D Electron Microscopy</h3>
+            <p>Instance segmentation and representation learning for mitochondria, nuclei, and pan-organelle structures in volume EM data.</p>
+          </article>
+          <article class="card">
+            <h3>Label-Efficient Segmentation</h3>
+            <p>Semi-/weakly-supervised learning with consistency regularization, contrastive learning, and self-training for robust cross-domain performance.</p>
+          </article>
+          <article class="card">
+            <h3>Structure-Aware Modeling</h3>
+            <p>Skeleton/geometry/topology priors with cross-resolution context modeling and mixture-of-experts strategies.</p>
+          </article>
+          <article class="card">
+            <h3>Open Benchmarks</h3>
+            <p>Dataset and benchmark construction for fair, scalable, and reproducible method comparison.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel reveal" id="publications">
+        <div class="section-head">
+          <h2 data-zh="代表论文" data-en="Selected Publications">代表论文</h2>
+          <p data-zh="* 标注代表 CV 中记录的一作/核心工作" data-en="* Highlights from CV-reported first-author/core works">* 标注代表 CV 中记录的一作/核心工作</p>
+        </div>
+
+        <div class="pub-list">
+          <article class="pub-item">
+            <div class="pub-meta"><span>2026</span><span>CMIG</span></div>
+            <h3>* CR-GLoCo: Cross-Resolution Learning via Global-Local Context Consistency for Semi-Supervised 3D Medical Segmentation</h3>
+            <p>Computerized Medical Imaging and Graphics. Accepted and available online (in press).</p>
+          </article>
+          <article class="pub-item">
+            <div class="pub-meta"><span>2025</span><span>Under Review</span></div>
+            <h3>* MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images</h3>
+            <p>Under review at Scientific Data.</p>
+          </article>
+          <article class="pub-item">
+            <div class="pub-meta"><span>2023</span><span>Computers in Biology and Medicine</span></div>
+            <h3>* CVCL: Context-aware Voxel-wise Contrastive Learning for Label-Efficient Multi-Organ Segmentation</h3>
+            <p>Liu, Peng and Zheng, Guoyan.</p>
+          </article>
+          <article class="pub-item">
+            <div class="pub-meta"><span>2022</span><span>MICCAI</span></div>
+            <h3>* Context-aware Voxel-wise Contrastive Learning for Label Efficient Multi-Organ Segmentation</h3>
+            <p>International Conference on Medical Image Computing and Computer-Assisted Intervention.</p>
+          </article>
+          <article class="pub-item">
+            <div class="pub-meta"><span>2022</span><span>IEEE JBHI</span></div>
+            <h3>* Handling Imbalanced Data: Uncertainty-Guided Virtual Adversarial Training With Batch Nuclear-Norm Optimization</h3>
+            <p>IEEE Journal of Biomedical and Health Informatics.</p>
+          </article>
+          <article class="pub-item">
+            <div class="pub-meta"><span>2021</span><span>MLMI</span></div>
+            <h3>* Semi-supervised Learning Regularized by Adversarial Perturbation and Diversity Maximization</h3>
+            <p>Machine Learning in Medical Imaging (MICCAI workshop).</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="grid-two reveal" id="experience">
+        <section class="panel">
+          <div class="section-head">
+            <h2 data-zh="工作经历" data-en="Employment">工作经历</h2>
+          </div>
+          <div class="timeline">
+            <article>
+              <h3>Boston College, Department of Computer Science</h3>
+              <p class="time">Aug 2024 - Present · Boston, MA, USA</p>
+              <p>Postdoctoral Researcher (Advisor: Prof. Donglai Wei). Leading 3D EM segmentation research and benchmark-driven projects including MitoEM 2.0.</p>
+            </article>
+            <article>
+              <h3>Meituan</h3>
+              <p class="time">Jul 2017 - Jul 2019 · Beijing, China</p>
+              <p>Search and Recommendation Algorithm Engineer. Built ranking/recommendation models with Graph Embedding, DNN, and Wide&Deep.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="section-head">
+            <h2 data-zh="教育背景" data-en="Education">教育背景</h2>
+          </div>
+          <div class="timeline">
+            <article>
+              <h3>Shanghai Jiao Tong University</h3>
+              <p class="time">2019 - 2024 · Ph.D. in Biomedical Engineering</p>
+              <p>Advisor: Guoyan Zheng. Dissertation: Semi-Supervised Medical Image Analysis Based on Consistency Regularization.</p>
+            </article>
+            <article>
+              <h3>University of Chinese Academy of Sciences</h3>
+              <p class="time">2015 - 2018 · M.Sc. in Signal and Information Processing</p>
+              <p>Ranked 1st in postgraduate entrance examination.</p>
+            </article>
+            <article>
+              <h3>China University of Geosciences</h3>
+              <p class="time">2011 - 2015 · B.Sc. in Geographic Information System</p>
+            </article>
+          </div>
+        </section>
+      </section>
+
+      <section class="grid-two reveal" id="more">
+        <section class="panel">
+          <div class="section-head">
+            <h2 data-zh="竞赛与奖项" data-en="Competitions & Scholarships">竞赛与奖项</h2>
+          </div>
+          <ul class="compact-list">
+            <li><strong>2026:</strong> 1st Place, CellMap Segmentation Challenge (eFIB-SEM, 40+ classes)</li>
+            <li><strong>2023:</strong> 2nd Place, MICCAI FLARE 2023 Challenge</li>
+            <li><strong>2018:</strong> MDD Cup 2018 (Meituan), Ranking 20/120</li>
+            <li><strong>2017:</strong> MDD Cup 2017 (Meituan), Ranking 7/148</li>
+            <li><strong>2012-2014:</strong> National Encouragement Scholarship and university scholarships</li>
+          </ul>
+        </section>
+
+        <section class="panel">
+          <div class="section-head">
+            <h2 data-zh="教学与服务" data-en="Teaching & Service">教学与服务</h2>
+          </div>
+          <ul class="compact-list">
+            <li><strong>TA:</strong> SJTU CS 2901 (Fall 2021, 2022), SJTU CS 170 (Fall 2019, 2020)</li>
+            <li><strong>Courses:</strong> Programming Fundamentals (C/C++), Data Structures & Algorithms, Biomedical Image Analysis, Deep Learning</li>
+            <li><strong>Reviewer:</strong> IEEE TMI, Medical Image Analysis, IEEE JBHI, Neural Networks, CMIG, MICCAI 2021/2022</li>
+            <li><strong>Skills:</strong> Python, C++, PyTorch, Linux, Git; English and Mandarin Chinese</li>
+          </ul>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="currentYear"></span> Peng Liu</p>
+    </footer>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
