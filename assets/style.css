@@ -357,58 +357,6 @@ h1 {
   color: var(--ink);
 }
 
-.visual-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-}
-
-.figure-card {
-  margin: 0;
-  border: 1px solid var(--stroke);
-  border-radius: 14px;
-  padding: 10px;
-  background: #fffef9;
-  display: grid;
-  gap: 8px;
-}
-
-.figure-mock {
-  border-radius: 10px;
-  aspect-ratio: 16 / 10;
-  border: 1px solid color-mix(in oklab, var(--stroke) 85%, white);
-}
-
-.fig-a {
-  background:
-    radial-gradient(circle at 18% 30%, rgba(15, 107, 107, 0.32) 0 9%, transparent 10% 100%),
-    radial-gradient(circle at 41% 52%, rgba(15, 107, 107, 0.28) 0 11%, transparent 12% 100%),
-    radial-gradient(circle at 70% 40%, rgba(240, 195, 143, 0.34) 0 13%, transparent 14% 100%),
-    linear-gradient(145deg, #f6fbfb, #e8f0ec);
-}
-
-.fig-b {
-  background:
-    linear-gradient(180deg, rgba(15, 107, 107, 0.18), rgba(15, 107, 107, 0.18)) 8% 80% / 18% 14% no-repeat,
-    linear-gradient(180deg, rgba(15, 107, 107, 0.28), rgba(15, 107, 107, 0.28)) 30% 68% / 18% 26% no-repeat,
-    linear-gradient(180deg, rgba(15, 107, 107, 0.38), rgba(15, 107, 107, 0.38)) 52% 58% / 18% 36% no-repeat,
-    linear-gradient(180deg, rgba(15, 107, 107, 0.5), rgba(15, 107, 107, 0.5)) 74% 44% / 18% 50% no-repeat,
-    linear-gradient(150deg, #f8f3ea, #e6f5f1);
-}
-
-.fig-c {
-  background:
-    repeating-linear-gradient(45deg, rgba(15, 107, 107, 0.11), rgba(15, 107, 107, 0.11) 6px, transparent 6px, transparent 12px),
-    radial-gradient(circle at 25% 35%, rgba(255, 255, 255, 0.95) 0 14%, transparent 15% 100%),
-    radial-gradient(circle at 66% 60%, rgba(255, 255, 255, 0.9) 0 11%, transparent 12% 100%),
-    linear-gradient(135deg, #d6ece7, #f8f2e2);
-}
-
-.figure-card figcaption {
-  margin: 0;
-  font-size: 0.87rem;
-  color: var(--muted);
-}
 
 .pub-list {
   display: grid;
@@ -553,10 +501,6 @@ h1 {
   .hero-card {
     max-width: 420px;
     justify-self: center;
-  }
-
-  .visual-grid {
-    grid-template-columns: 1fr;
   }
 
   .site-header {
