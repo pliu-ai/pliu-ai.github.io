@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Peng Liu | Personal Website</title>
+    <title>Peng Liu | Biomedical AI Researcher</title>
     <meta
       name="description"
-      content="Peng Liu's personal website: research interests, publications, CV, and academic profile."
+      content="Peng Liu's academic homepage: 3D biomedical image segmentation, volume EM, publications, projects, and CV."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Sora:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&amp;family=Sora:wght@400;500;600;700&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/style.css" />
@@ -23,14 +23,16 @@
     <header class="site-header">
       <div class="logo">Peng Liu</div>
       <nav class="main-nav" aria-label="Primary Navigation">
-        <a href="#research" data-zh="研究方向" data-en="Research">研究方向</a>
-        <a href="#publications" data-zh="论文" data-en="Publications">论文</a>
-        <a href="#experience" data-zh="经历" data-en="Experience">经历</a>
-        <a href="#contact" data-zh="联系" data-en="Contact">联系</a>
+        <a href="#research-vision" data-zh="研究" data-en="Research">Research</a>
+        <a href="#projects" data-zh="项目" data-en="Projects">Projects</a>
+        <a href="#publications" data-zh="论文" data-en="Publications">Publications</a>
+        <a href="#experience" data-zh="经历" data-en="Experience">Experience</a>
+        <a href="#teaching" data-zh="教学与服务" data-en="Teaching &amp; Service">Teaching &amp; Service</a>
+        <a href="#contact-panel" data-zh="联系" data-en="Contact">Contact</a>
       </nav>
       <div class="lang-switch" role="group" aria-label="Language switch">
-        <button type="button" class="lang-btn is-active" data-lang="zh" aria-pressed="true">中</button>
-        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        <button type="button" class="lang-btn" data-lang="zh" aria-pressed="false">中</button>
+        <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
       </div>
     </header>
 
@@ -38,25 +40,35 @@
       <section class="hero reveal" id="top">
         <div class="hero-text">
           <p class="kicker" data-zh="波士顿学院 · 博士后研究员" data-en="Boston College · Postdoctoral Researcher">
-            波士顿学院 · 博士后研究员
+            Boston College · Postdoctoral Researcher
           </p>
           <h1>Peng Liu, Ph.D.</h1>
           <p
             class="lead"
-            data-zh="研究方向聚焦 3D 医学影像与电子显微镜分割，强调标签效率、结构先验和可复现评测。"
-            data-en="Research in 3D medical/EM segmentation with a focus on label efficiency, structure-aware modeling, and reproducible benchmarks."
+            data-zh="我开发面向 3D 生物医学影像分割的标签高效、结构感知深度学习方法，重点关注体电子显微镜、细胞器分割和可复现基准评测。我的研究目标是构建可泛化的分割系统，降低标注负担并支持可扩展的生物发现。"
+            data-en="I develop label-efficient and structure-aware deep learning methods for 3D biomedical image segmentation, with a focus on volume electron microscopy, organelle segmentation, and reproducible benchmarks. My research aims to build generalizable segmentation systems that reduce annotation burden and enable scalable biological discovery."
           >
-            研究方向聚焦 3D 医学影像与电子显微镜分割，强调标签效率、结构先验和可复现评测。
+            I develop label-efficient and structure-aware deep learning methods for 3D biomedical image segmentation, with a focus on volume electron microscopy, organelle segmentation, and reproducible benchmarks. My research aims to build generalizable segmentation systems that reduce annotation burden and enable scalable biological discovery.
+          </p>
+          <p
+            class="job-market"
+            data-zh="我正在寻求生物医学图像分析、计算机视觉与 AI for scientific discovery 方向的博士后或教职机会。"
+            data-en="I am currently seeking postdoctoral or faculty opportunities in biomedical image analysis, computer vision, and AI for scientific discovery."
+          >
+            I am currently seeking postdoctoral or faculty opportunities in biomedical image analysis, computer vision, and AI for scientific discovery.
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="cv-llt.pdf" target="_blank" rel="noopener" data-zh="下载英文 CV" data-en="Download CV (EN)">下载英文 CV</a>
-            <a class="btn btn-ghost" href="cv-cn.pdf" target="_blank" rel="noopener" data-zh="下载中文简历" data-en="Download CV (ZH)">下载中文简历</a>
+            <a class="btn btn-primary" href="cv-llt.pdf" target="_blank" rel="noopener" data-zh="下载英文 CV" data-en="Download CV">Download CV</a>
+            <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="btn btn-ghost" href="https://github.com/luckieucas" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn-ghost" href="mailto:liupen@bc.edu">Email</a>
+            <a class="btn btn-ghost" href="cv-cn.pdf" target="_blank" rel="noopener" data-zh="中文简历" data-en="CV (ZH)">CV (ZH)</a>
           </div>
 
-          <ul class="contact-chips" id="contact">
+          <ul class="contact-chips">
             <li><a href="mailto:liupen@bc.edu">liupen@bc.edu</a></li>
-            <li><a href="tel:+18575404818">+1 (857) 540-4818</a></li>
+            <li><a href="https://pliu-ai.github.io" target="_blank" rel="noopener">pliu-ai.github.io</a></li>
             <li>Boston, MA, USA</li>
           </ul>
         </div>
@@ -64,78 +76,132 @@
         <div class="hero-card">
           <img src="photo.jpg" alt="Portrait of Peng Liu" />
           <div class="hero-card-content">
-            <p data-zh="当前研究" data-en="Current Focus">当前研究</p>
+            <p data-zh="当前研究重点" data-en="Current Focus">Current Focus</p>
             <h2>3D EM Organelle Segmentation</h2>
             <p
-              data-zh="MitoEM 2.0、CellMap 等任务中的线粒体、细胞核与泛细胞器分析。"
-              data-en="Mitochondria, nuclei, and pan-organelle analysis in benchmark-driven projects such as MitoEM 2.0 and CellMap."
+              data-zh="围绕 MitoEM 2.0 和 CellMap 等任务开展线粒体、细胞核和泛细胞器分割研究。"
+              data-en="Benchmark-driven segmentation research on mitochondria, nuclei, and pan-organelle structures in MitoEM 2.0 and CellMap-style settings."
             >
-              MitoEM 2.0、CellMap 等任务中的线粒体、细胞核与泛细胞器分析。
+              Benchmark-driven segmentation research on mitochondria, nuclei, and pan-organelle structures in MitoEM 2.0 and CellMap-style settings.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="panel reveal" id="research">
+      <section class="panel reveal" id="research-vision">
         <div class="section-head">
-          <h2 data-zh="研究方向" data-en="Research Interests">研究方向</h2>
+          <h2 data-zh="研究愿景" data-en="Research Vision">Research Vision</h2>
         </div>
-        <div class="cards">
-          <article class="card">
-            <h3>3D Electron Microscopy</h3>
-            <p>Instance segmentation and representation learning for mitochondria, nuclei, and pan-organelle structures in volume EM data.</p>
+        <p class="vision-text" data-zh="我的长期目标是构建可泛化的 3D 生物医学影像 AI 系统。当前模型往往依赖密集标注，且在域偏移、复杂拓扑和大规模体电子显微镜数据上鲁棒性不足。我的研究通过标签高效学习、结构先验建模和基准驱动评测来应对这些问题，推动可靠工具服务于大规模生物发现。" data-en="My long-term goal is to develop generalizable AI systems for 3D biomedical image understanding. Current segmentation models often require dense expert annotation and struggle with domain shift, complex topology, and large-scale volume EM data. My work addresses these challenges by combining label-efficient learning, structural priors, and benchmark-driven evaluation to build reliable tools for scalable biological discovery.">
+          My long-term goal is to develop generalizable AI systems for 3D biomedical image understanding. Current segmentation models often require dense expert annotation and struggle with domain shift, complex topology, and large-scale volume EM data. My work addresses these challenges by combining label-efficient learning, structural priors, and benchmark-driven evaluation to build reliable tools for scalable biological discovery.
+        </p>
+      </section>
+
+      <section class="panel reveal" id="highlights">
+        <div class="section-head">
+          <h2 data-zh="亮点" data-en="Highlights">Highlights</h2>
+        </div>
+        <ul class="compact-list">
+          <li><strong>2026:</strong> 1st Place, CellMap Segmentation Challenge (eFIB-SEM, 40+ classes)</li>
+          <li><strong>2023:</strong> 2nd Place, MICCAI FLARE 2023 Challenge</li>
+          <li><strong>Publications:</strong> First-author papers in CMIG, CBM, MICCAI, and IEEE JBHI</li>
+          <li><strong>Focus:</strong> Label-efficient and structure-aware 3D biomedical segmentation</li>
+        </ul>
+      </section>
+
+      <section class="panel reveal" id="projects">
+        <div class="section-head">
+          <h2 data-zh="研究项目" data-en="Research Projects">Research Projects</h2>
+        </div>
+        <div class="cards projects-grid">
+          <article class="card project-card">
+            <h3>MitoEM 2.0 / MitoVerse</h3>
+            <p><strong>Problem:</strong> Existing 3D EM datasets are limited for robust mitochondria instance segmentation and foundation-model benchmarking.</p>
+            <p><strong>Method:</strong> Built a challenging benchmark pipeline with consistent evaluation and model-oriented task design.</p>
+            <p><strong>Contribution:</strong> Provides a standardized testbed for scalable, reproducible mitochondria segmentation research.</p>
+            <p class="link-row"><a href="https://scholar.google.com/scholar?q=MitoEM+2.0+A+Benchmark+for+Challenging+3D+Mitochondria+Instance+Segmentation+from+EM+Images" target="_blank" rel="noopener">Paper</a><a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener">Benchmark Context</a></p>
           </article>
-          <article class="card">
-            <h3>Label-Efficient Segmentation</h3>
-            <p>Semi-/weakly-supervised learning with consistency regularization, contrastive learning, and self-training for robust cross-domain performance.</p>
+          <article class="card project-card">
+            <h3>TopoSlot / RAHSeg / RalphUNet</h3>
+            <p><strong>Problem:</strong> Pan-organelle EM segmentation often fails on topologically complex and tightly coupled structures.</p>
+            <p><strong>Method:</strong> Structured conditional segmentation with topology- and affinity-aware constraints.</p>
+            <p><strong>Contribution:</strong> Improves structural consistency and robustness in challenging volume EM cases.</p>
+            <p class="link-row"><a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Related Publications</a></p>
           </article>
-          <article class="card">
-            <h3>Structure-Aware Modeling</h3>
-            <p>Skeleton/geometry/topology priors with cross-resolution context modeling and mixture-of-experts strategies.</p>
+          <article class="card project-card">
+            <h3>MitoSDT / Structure-Aware Instance Refinement</h3>
+            <p><strong>Problem:</strong> Tubular organelles are prone to false merges and disconnections in automatic instance segmentation.</p>
+            <p><strong>Method:</strong> Skeleton-distance and geometry priors with point-cloud-aware refinement modules.</p>
+            <p><strong>Contribution:</strong> Reduces merge errors and preserves biologically meaningful morphology.</p>
+            <p class="link-row"><a href="https://scholar.google.com/scholar?q=SkelAffinity-Seg+Skeleton-Guided+Geometry+and+Global+Affinity+Learning" target="_blank" rel="noopener">Related Manuscript</a></p>
           </article>
-          <article class="card">
-            <h3>Open Benchmarks</h3>
-            <p>Dataset and benchmark construction for fair, scalable, and reproducible method comparison.</p>
+          <article class="card project-card">
+            <h3>CR-GLoCo / CVCL</h3>
+            <p><strong>Problem:</strong> Expert labeling cost blocks broad deployment of 3D medical segmentation models.</p>
+            <p><strong>Method:</strong> Semi-supervised cross-resolution consistency learning and voxel-wise contrastive learning.</p>
+            <p><strong>Contribution:</strong> Demonstrates strong label efficiency for multi-organ and cross-domain segmentation.</p>
+            <p class="link-row"><a href="https://scholar.google.com/scholar?q=CR-GLoCo+Cross-Resolution+Learning+via+Global-Local+Context+Consistency" target="_blank" rel="noopener">CR-GLoCo</a><a href="https://scholar.google.com/scholar?q=CVCL+Context-aware+Voxel-wise+Contrastive+Learning" target="_blank" rel="noopener">CVCL</a></p>
           </article>
+        </div>
+      </section>
+
+      <section class="panel reveal" id="visuals">
+        <div class="section-head">
+          <h2 data-zh="研究可视化示例" data-en="Selected Visual Examples">Selected Visual Examples</h2>
+        </div>
+        <div class="visual-grid">
+          <figure class="figure-card">
+            <div class="figure-mock fig-a" aria-hidden="true"></div>
+            <figcaption>3D EM segmentation example: qualitative organelle boundary consistency.</figcaption>
+          </figure>
+          <figure class="figure-card">
+            <div class="figure-mock fig-b" aria-hidden="true"></div>
+            <figcaption>MitoEM 2.0 benchmark overview: challenge setup, metrics, and dataset scale.</figcaption>
+          </figure>
+          <figure class="figure-card">
+            <div class="figure-mock fig-c" aria-hidden="true"></div>
+            <figcaption>Topology-aware modeling example: baseline vs. structure-aware refinement.</figcaption>
+          </figure>
         </div>
       </section>
 
       <section class="panel reveal" id="publications">
         <div class="section-head">
-          <h2 data-zh="代表论文" data-en="Selected Publications">代表论文</h2>
-          <p data-zh="* 标注代表 CV 中记录的一作/核心工作" data-en="* Highlights from CV-reported first-author/core works">* 标注代表 CV 中记录的一作/核心工作</p>
+          <h2 data-zh="代表论文" data-en="Selected Publications">Selected Publications</h2>
         </div>
 
         <div class="pub-list">
           <article class="pub-item">
             <div class="pub-meta"><span>2026</span><span>CMIG</span></div>
-            <h3>* CR-GLoCo: Cross-Resolution Learning via Global-Local Context Consistency for Semi-Supervised 3D Medical Segmentation</h3>
-            <p>Computerized Medical Imaging and Graphics. Accepted and available online (in press).</p>
+            <h3>CR-GLoCo: Cross-Resolution Learning via Global-Local Context Consistency for Semi-Supervised 3D Medical Segmentation</h3>
+            <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
+            <p>Computerized Medical Imaging and Graphics (in press).</p>
+            <p class="link-row"><a href="https://scholar.google.com/scholar?q=CR-GLoCo+Cross-Resolution+Learning+via+Global-Local+Context+Consistency+for+Semi-Supervised+3D+Medical+Segmentation" target="_blank" rel="noopener">Paper</a><a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Profile</a></p>
+            <p class="contrib">One-line contribution: Cross-resolution global-local consistency for label-efficient 3D segmentation.</p>
           </article>
           <article class="pub-item">
             <div class="pub-meta"><span>2025</span><span>Under Review</span></div>
-            <h3>* MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images</h3>
+            <h3>MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images</h3>
+            <p class="authors"><strong>Peng Liu</strong>, Boyu Shen, Liyuan Liu, Qiong Wang, Shulin Zhang, Abhishek Bhardwaj, Ignacio Arganda-Carreras, Kedar Narayan, Donglai Wei</p>
             <p>Under review at Scientific Data.</p>
+            <p class="link-row"><a href="https://scholar.google.com/scholar?q=MitoEM+2.0+A+Benchmark+for+Challenging+3D+Mitochondria+Instance+Segmentation+from+EM+Images" target="_blank" rel="noopener">Paper</a><a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener">Benchmark Context</a></p>
+            <p class="contrib">One-line contribution: Establishes a benchmark focused on robustness and reproducibility for 3D mitochondria instance segmentation.</p>
           </article>
           <article class="pub-item">
-            <div class="pub-meta"><span>2023</span><span>Computers in Biology and Medicine</span></div>
-            <h3>* CVCL: Context-aware Voxel-wise Contrastive Learning for Label-Efficient Multi-Organ Segmentation</h3>
-            <p>Liu, Peng and Zheng, Guoyan.</p>
+            <div class="pub-meta"><span>2023</span><span>CBM</span></div>
+            <h3>CVCL: Context-aware Voxel-wise Contrastive Learning for Label-Efficient Multi-Organ Segmentation</h3>
+            <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
+            <p>Computers in Biology and Medicine.</p>
+            <p class="link-row"><a href="https://scholar.google.com/scholar?q=CVCL+Context-aware+Voxel-wise+Contrastive+Learning+for+Label-Efficient+Multi-Organ+Segmentation" target="_blank" rel="noopener">Paper</a></p>
+            <p class="contrib">One-line contribution: Improves semi-supervised multi-organ segmentation via context-aware voxel contrastive objectives.</p>
           </article>
           <article class="pub-item">
             <div class="pub-meta"><span>2022</span><span>MICCAI</span></div>
-            <h3>* Context-aware Voxel-wise Contrastive Learning for Label Efficient Multi-Organ Segmentation</h3>
+            <h3>Context-aware Voxel-wise Contrastive Learning for Label Efficient Multi-Organ Segmentation</h3>
+            <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
             <p>International Conference on Medical Image Computing and Computer-Assisted Intervention.</p>
-          </article>
-          <article class="pub-item">
-            <div class="pub-meta"><span>2022</span><span>IEEE JBHI</span></div>
-            <h3>* Handling Imbalanced Data: Uncertainty-Guided Virtual Adversarial Training With Batch Nuclear-Norm Optimization</h3>
-            <p>IEEE Journal of Biomedical and Health Informatics.</p>
-          </article>
-          <article class="pub-item">
-            <div class="pub-meta"><span>2021</span><span>MLMI</span></div>
-            <h3>* Semi-supervised Learning Regularized by Adversarial Perturbation and Diversity Maximization</h3>
-            <p>Machine Learning in Medical Imaging (MICCAI workshop).</p>
+            <p class="link-row"><a href="https://scholar.google.com/scholar?q=Context-aware+Voxel-wise+Contrastive+Learning+for+Label+Efficient+Multi-Organ+Segmentation" target="_blank" rel="noopener">Paper</a></p>
+            <p class="contrib">One-line contribution: Introduces voxel-wise contrastive design for label-efficient learning in 3D segmentation.</p>
           </article>
         </div>
       </section>
@@ -143,7 +209,7 @@
       <section class="grid-two reveal" id="experience">
         <section class="panel">
           <div class="section-head">
-            <h2 data-zh="工作经历" data-en="Employment">工作经历</h2>
+            <h2 data-zh="工作经历" data-en="Experience">Experience</h2>
           </div>
           <div class="timeline">
             <article>
@@ -154,14 +220,14 @@
             <article>
               <h3>Meituan</h3>
               <p class="time">Jul 2017 - Jul 2019 · Beijing, China</p>
-              <p>Search and Recommendation Algorithm Engineer. Built ranking/recommendation models with Graph Embedding, DNN, and Wide&Deep.</p>
+              <p>Search and Recommendation Algorithm Engineer. Built ranking/recommendation models with graph embedding, DNN, and Wide &amp; Deep.</p>
             </article>
           </div>
         </section>
 
         <section class="panel">
           <div class="section-head">
-            <h2 data-zh="教育背景" data-en="Education">教育背景</h2>
+            <h2 data-zh="教育背景" data-en="Education">Education</h2>
           </div>
           <div class="timeline">
             <article>
@@ -182,29 +248,28 @@
         </section>
       </section>
 
-      <section class="grid-two reveal" id="more">
+      <section class="grid-two reveal" id="teaching">
         <section class="panel">
           <div class="section-head">
-            <h2 data-zh="竞赛与奖项" data-en="Competitions & Scholarships">竞赛与奖项</h2>
+            <h2 data-zh="教学与服务" data-en="Teaching &amp; Service">Teaching &amp; Service</h2>
           </div>
           <ul class="compact-list">
-            <li><strong>2026:</strong> 1st Place, CellMap Segmentation Challenge (eFIB-SEM, 40+ classes)</li>
-            <li><strong>2023:</strong> 2nd Place, MICCAI FLARE 2023 Challenge</li>
-            <li><strong>2018:</strong> MDD Cup 2018 (Meituan), Ranking 20/120</li>
-            <li><strong>2017:</strong> MDD Cup 2017 (Meituan), Ranking 7/148</li>
-            <li><strong>2012-2014:</strong> National Encouragement Scholarship and university scholarships</li>
+            <li><strong>Teaching Assistant:</strong> SJTU CS 2901 (Fall 2021, 2022), SJTU CS 170 (Fall 2019, 2020)</li>
+            <li><strong>Courses:</strong> Programming Fundamentals (C/C++), Data Structures &amp; Algorithms, Biomedical Image Analysis, Deep Learning</li>
+            <li><strong>Reviewer:</strong> IEEE TMI, Medical Image Analysis, IEEE JBHI, Neural Networks, CMIG, MICCAI 2021/2022</li>
+            <li><strong>Skills:</strong> Python, C++, PyTorch, Linux, Git; English and Mandarin Chinese</li>
           </ul>
         </section>
 
-        <section class="panel">
+        <section class="panel" id="contact-panel">
           <div class="section-head">
-            <h2 data-zh="教学与服务" data-en="Teaching & Service">教学与服务</h2>
+            <h2 data-zh="联系" data-en="Contact">Contact</h2>
           </div>
-          <ul class="compact-list">
-            <li><strong>TA:</strong> SJTU CS 2901 (Fall 2021, 2022), SJTU CS 170 (Fall 2019, 2020)</li>
-            <li><strong>Courses:</strong> Programming Fundamentals (C/C++), Data Structures & Algorithms, Biomedical Image Analysis, Deep Learning</li>
-            <li><strong>Reviewer:</strong> IEEE TMI, Medical Image Analysis, IEEE JBHI, Neural Networks, CMIG, MICCAI 2021/2022</li>
-            <li><strong>Skills:</strong> Python, C++, PyTorch, Linux, Git; English and Mandarin Chinese</li>
+          <ul class="compact-list" id="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:liupen@bc.edu">liupen@bc.edu</a></li>
+            <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Profile</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/luckieucas" target="_blank" rel="noopener">luckieucas</a></li>
+            <li><strong>Website:</strong> <a href="https://pliu-ai.github.io" target="_blank" rel="noopener">pliu-ai.github.io</a></li>
           </ul>
         </section>
       </section>

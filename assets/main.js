@@ -45,4 +45,4 @@ langButtons.forEach((btn) => {
   btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
 });
 
-setLanguage('zh');
+setLanguage('en');
