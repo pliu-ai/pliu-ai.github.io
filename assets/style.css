@@ -154,8 +154,8 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 22px;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
+  gap: 0;
   align-items: stretch;
 }
 
@@ -254,8 +254,8 @@ h1 {
 
 .hero-card {
   overflow: hidden;
-  max-width: 320px;
-  justify-self: end;
+  max-width: none;
+  justify-self: stretch;
 }
 
 .hero-card img {
@@ -273,6 +273,21 @@ h1 {
 .hero-card-content p {
   margin: 0;
   color: var(--muted);
+}
+
+.advisor-note {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.advisor-note a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in oklab, var(--accent) 55%, white);
+}
+
+.advisor-note a:hover {
+  border-bottom-color: var(--accent);
 }
 
 .hero-card-content h2 {
