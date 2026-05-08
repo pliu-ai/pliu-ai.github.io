@@ -8,7 +8,7 @@ This repository now includes a GitHub Pages-ready personal website generated fro
 - `assets/style.css`: styles
 - `assets/main.js`: interaction and language toggle
 - `photo.jpg`: profile photo
-- `cv-llt.pdf` / `cv-cn.pdf`: CV downloads
+- `PengLiu_cv.pdf` / `cv-cn.pdf`: CV downloads
 - `DEPLOY_GITHUB_PAGES.md`: deployment guide in Chinese
 
 ## Local preview

@@ -49,5 +49,5 @@ git push
 
 1. 页面 404：确认 `Settings -> Pages` 是否已启用，并等待几分钟。
 2. 图片不显示：确认 `photo.jpg` 文件已提交到仓库。
-3. CV 链接打不开：确认 `cv-llt.pdf` 和 `cv-cn.pdf` 已提交。
+3. CV 链接打不开：确认 `PengLiu_cv.pdf` 和 `cv-cn.pdf` 已提交。
 4. 如果你不想公开手机号，可在 `index.html` 删除电话那一行。
