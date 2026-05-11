@@ -198,6 +198,14 @@ h1 {
   max-width: 45ch;
 }
 
+.keywords-line {
+  margin: 8px 0 0;
+  max-width: 52ch;
+  color: #1d5554;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
 .job-market {
   margin: 12px 0 0;
   max-width: 48ch;
@@ -355,6 +363,32 @@ h1 {
 .pub-list {
   display: grid;
   gap: 10px;
+}
+
+.topic-map {
+  margin-bottom: 14px;
+}
+
+.topic-map .card {
+  display: grid;
+  gap: 8px;
+}
+
+.topic-map h3 {
+  margin-bottom: 0;
+}
+
+.topic-list {
+  margin: 0;
+}
+
+.topic-list a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.topic-list a:hover {
+  text-decoration: underline;
 }
 
 .pub-item {

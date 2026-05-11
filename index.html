@@ -49,6 +49,13 @@
             My research focuses on three areas: 3D pan-organelle segmentation, foundation models, and annotation-efficient learning.
           </p>
           <p
+            class="keywords-line"
+            data-zh="关键词：3D 泛细胞器分割 · 基础模型 · 标注高效学习"
+            data-en="Keywords: 3D pan-organelle segmentation · foundation models · annotation-efficient learning"
+          >
+            Keywords: 3D pan-organelle segmentation · foundation models · annotation-efficient learning
+          </p>
+          <p
             class="job-market"
             data-zh="我正在寻求生物医学图像分析、计算机视觉与 AI for scientific discovery 方向的博士后或教职机会。"
             data-en="I am currently seeking postdoctoral or faculty opportunities in biomedical image analysis, computer vision, and AI for scientific discovery."
@@ -102,8 +109,33 @@
           <h2 data-zh="代表论文" data-en="Selected Publications">Selected Publications</h2>
         </div>
 
+        <div class="cards topic-map">
+          <article class="card">
+            <h3 data-zh="主题：3D 泛细胞器分割" data-en="Topic: 3D Pan-Organelle Segmentation">Topic: 3D Pan-Organelle Segmentation</h3>
+            <ul class="compact-list topic-list">
+              <li><a href="#paper-mitoem20">MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images</a></li>
+              <li><a href="#paper-nucleonet-dropnet">NucleoNet and DropNet: Generalist deep learning models for instance segmentation of nuclei and lipid droplets from electron microscopy images</a></li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 data-zh="主题：基础模型" data-en="Topic: Foundation Models">Topic: Foundation Models</h3>
+            <ul class="compact-list topic-list">
+              <li><a href="#paper-mitoem20">MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images</a></li>
+              <li><a href="#paper-nucleonet-dropnet">NucleoNet and DropNet: Generalist deep learning models for instance segmentation of nuclei and lipid droplets from electron microscopy images</a></li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 data-zh="主题：标注高效学习" data-en="Topic: Annotation-Efficient Learning">Topic: Annotation-Efficient Learning</h3>
+            <ul class="compact-list topic-list">
+              <li><a href="#paper-cr-gloco">CR-GLoCo: Cross-Resolution Learning via Global-Local Context Consistency for Semi-Supervised 3D Medical Segmentation</a></li>
+              <li><a href="#paper-cvcl-cbm">CVCL: Context-aware Voxel-wise Contrastive Learning for Label-Efficient Multi-Organ Segmentation</a></li>
+              <li><a href="#paper-cvcl-miccai">Context-aware Voxel-wise Contrastive Learning for Label Efficient Multi-Organ Segmentation</a></li>
+            </ul>
+          </article>
+        </div>
+
         <div class="pub-list">
-          <article class="pub-item">
+          <article class="pub-item" id="paper-cr-gloco">
             <div class="pub-meta"><span>2026</span><span>CMIG</span></div>
             <h3>CR-GLoCo: Cross-Resolution Learning via Global-Local Context Consistency for Semi-Supervised 3D Medical Segmentation</h3>
             <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
@@ -111,7 +143,7 @@
             <p class="link-row"><a href="https://scholar.google.com/scholar?q=CR-GLoCo+Cross-Resolution+Learning+via+Global-Local+Context+Consistency+for+Semi-Supervised+3D+Medical+Segmentation" target="_blank" rel="noopener">Paper</a><a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Profile</a></p>
             <p class="contrib">One-line contribution: Cross-resolution global-local consistency for label-efficient 3D segmentation.</p>
           </article>
-          <article class="pub-item">
+          <article class="pub-item" id="paper-nucleonet-dropnet">
             <div class="pub-meta"><span>2026</span><span>bioRxiv</span></div>
             <h3>NucleoNet and DropNet: Generalist deep learning models for instance segmentation of nuclei and lipid droplets from electron microscopy images</h3>
             <p class="authors">Abhishek Bhardwaj, Chris W Dell, Melissa R Mikolaj, Helen Spiers, Adam Harned, Balamurugan Kuppusamy, <strong>Peng Liu</strong>, Donglai Wei, Esta Sterneck, Kedar Narayan</p>
@@ -119,7 +151,7 @@
             <p class="link-row"><a href="https://doi.org/10.64898/2026.04.02.713930" target="_blank" rel="noopener">Paper</a></p>
             <p class="contrib">One-line contribution: Introduces generalist instance models (NucleoNet and DropNet) for robust nuclei and lipid-droplet segmentation across heterogeneous EM datasets.</p>
           </article>
-          <article class="pub-item">
+          <article class="pub-item" id="paper-mitoem20">
             <div class="pub-meta"><span>2025</span><span>Under Review</span></div>
             <h3>MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images</h3>
             <p class="authors"><strong>Peng Liu</strong>, Boyu Shen, Liyuan Liu, Qiong Wang, Shulin Zhang, Abhishek Bhardwaj, Ignacio Arganda-Carreras, Kedar Narayan, Donglai Wei</p>
@@ -127,7 +159,7 @@
             <p class="link-row"><a href="https://scholar.google.com/scholar?q=MitoEM+2.0+A+Benchmark+for+Challenging+3D+Mitochondria+Instance+Segmentation+from+EM+Images" target="_blank" rel="noopener">Paper</a><a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener">Benchmark Context</a></p>
             <p class="contrib">One-line contribution: Establishes a benchmark focused on robustness and reproducibility for 3D mitochondria instance segmentation.</p>
           </article>
-          <article class="pub-item">
+          <article class="pub-item" id="paper-cvcl-cbm">
             <div class="pub-meta"><span>2023</span><span>CBM</span></div>
             <h3>CVCL: Context-aware Voxel-wise Contrastive Learning for Label-Efficient Multi-Organ Segmentation</h3>
             <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
@@ -135,7 +167,7 @@
             <p class="link-row"><a href="https://scholar.google.com/scholar?q=CVCL+Context-aware+Voxel-wise+Contrastive+Learning+for+Label-Efficient+Multi-Organ+Segmentation" target="_blank" rel="noopener">Paper</a></p>
             <p class="contrib">One-line contribution: Improves semi-supervised multi-organ segmentation via context-aware voxel contrastive objectives.</p>
           </article>
-          <article class="pub-item">
+          <article class="pub-item" id="paper-cvcl-miccai">
             <div class="pub-meta"><span>2022</span><span>MICCAI</span></div>
             <h3>Context-aware Voxel-wise Contrastive Learning for Label Efficient Multi-Organ Segmentation</h3>
             <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
