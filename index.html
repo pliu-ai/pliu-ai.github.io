@@ -6,7 +6,7 @@
     <title>Peng Liu | Biomedical AI Researcher</title>
     <meta
       name="description"
-      content="Peng Liu's academic homepage: 3D biomedical image segmentation, volume EM, publications, projects, and CV."
+      content="Peng Liu's academic homepage: 3D pan-organelle segmentation, foundation models, annotation-efficient learning, publications, and CV."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,8 +23,6 @@
     <header class="site-header">
       <div class="logo">Peng Liu</div>
       <nav class="main-nav" aria-label="Primary Navigation">
-        <a href="#projects" data-zh="研究" data-en="Research">Research</a>
-        <a href="#projects" data-zh="项目" data-en="Projects">Projects</a>
         <a href="#publications" data-zh="论文" data-en="Publications">Publications</a>
         <a href="#experience" data-zh="经历" data-en="Experience">Experience</a>
         <a href="#teaching" data-zh="教学与服务" data-en="Teaching &amp; Service">Teaching &amp; Service</a>
@@ -45,10 +43,10 @@
           <h1>Peng Liu, Ph.D.</h1>
           <p
             class="lead"
-            data-zh="我开发面向 3D 生物医学影像分割的标签高效、结构感知深度学习方法，重点关注体电子显微镜、细胞器分割和可复现基准评测。我的研究目标是构建可泛化的分割系统，降低标注负担并支持可扩展的生物发现。针对域偏移、复杂拓扑和大规模体电子显微镜数据带来的挑战，我通过标签高效学习、结构先验建模和基准驱动评测来提升系统可靠性。"
-            data-en="I develop label-efficient and structure-aware deep learning methods for 3D biomedical image segmentation, with a focus on volume electron microscopy, organelle segmentation, and reproducible benchmarks. My research aims to build generalizable segmentation systems that reduce annotation burden and enable scalable biological discovery. To address domain shift, complex topology, and large-scale volume EM settings, I combine label-efficient learning, structural priors, and benchmark-driven evaluation to improve reliability."
+            data-zh="我的研究聚焦三个方向：3D 泛细胞器分割、基础模型和标注高效学习。"
+            data-en="My research focuses on three areas: 3D pan-organelle segmentation, foundation models, and annotation-efficient learning."
           >
-            I develop label-efficient and structure-aware deep learning methods for 3D biomedical image segmentation, with a focus on volume electron microscopy, organelle segmentation, and reproducible benchmarks. My research aims to build generalizable segmentation systems that reduce annotation burden and enable scalable biological discovery. To address domain shift, complex topology, and large-scale volume EM settings, I combine label-efficient learning, structural priors, and benchmark-driven evaluation to improve reliability.
+            My research focuses on three areas: 3D pan-organelle segmentation, foundation models, and annotation-efficient learning.
           </p>
           <p
             class="job-market"
@@ -62,15 +60,8 @@
             <a class="btn btn-primary" href="PengLiu_cv.pdf" target="_blank" rel="noopener" data-zh="下载英文 CV" data-en="Download CV">Download CV</a>
             <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
             <a class="btn btn-ghost" href="https://github.com/pliu-ai" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn btn-ghost" href="mailto:liupen@bc.edu">Email</a>
             <a class="btn btn-ghost" href="cv-cn.pdf" target="_blank" rel="noopener" data-zh="中文简历" data-en="CV (ZH)">CV (ZH)</a>
           </div>
-
-          <ul class="contact-chips">
-            <li><a href="mailto:liupen@bc.edu">liupen@bc.edu</a></li>
-            <li><a href="https://pliu-ai.github.io" target="_blank" rel="noopener">pliu-ai.github.io</a></li>
-            <li>Boston, MA, USA</li>
-          </ul>
         </div>
 
         <div class="hero-card">
@@ -106,42 +97,6 @@
         </ul>
       </section>
 
-      <section class="panel reveal" id="projects">
-        <div class="section-head">
-          <h2 data-zh="研究项目" data-en="Research Projects">Research Projects</h2>
-        </div>
-        <div class="cards projects-grid">
-          <article class="card project-card">
-            <h3>MitoEM 2.0 / MitoVerse</h3>
-            <p><strong>Problem:</strong> Existing 3D EM datasets are limited for robust mitochondria instance segmentation and foundation-model benchmarking.</p>
-            <p><strong>Method:</strong> Built a challenging benchmark pipeline with consistent evaluation and model-oriented task design.</p>
-            <p><strong>Contribution:</strong> Provides a standardized testbed for scalable, reproducible mitochondria segmentation research.</p>
-            <p class="link-row"><a href="https://scholar.google.com/scholar?q=MitoEM+2.0+A+Benchmark+for+Challenging+3D+Mitochondria+Instance+Segmentation+from+EM+Images" target="_blank" rel="noopener">Paper</a><a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener">Benchmark Context</a></p>
-          </article>
-          <article class="card project-card">
-            <h3>TopoSlot / RAHSeg / RalphUNet</h3>
-            <p><strong>Problem:</strong> Pan-organelle EM segmentation often fails on topologically complex and tightly coupled structures.</p>
-            <p><strong>Method:</strong> Structured conditional segmentation with topology- and affinity-aware constraints.</p>
-            <p><strong>Contribution:</strong> Improves structural consistency and robustness in challenging volume EM cases.</p>
-            <p class="link-row"><a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Related Publications</a></p>
-          </article>
-          <article class="card project-card">
-            <h3>MitoSDT / Structure-Aware Instance Refinement</h3>
-            <p><strong>Problem:</strong> Tubular organelles are prone to false merges and disconnections in automatic instance segmentation.</p>
-            <p><strong>Method:</strong> Skeleton-distance and geometry priors with point-cloud-aware refinement modules.</p>
-            <p><strong>Contribution:</strong> Reduces merge errors and preserves biologically meaningful morphology.</p>
-            <p class="link-row"><a href="https://scholar.google.com/scholar?q=SkelAffinity-Seg+Skeleton-Guided+Geometry+and+Global+Affinity+Learning" target="_blank" rel="noopener">Related Manuscript</a></p>
-          </article>
-          <article class="card project-card">
-            <h3>CR-GLoCo / CVCL</h3>
-            <p><strong>Problem:</strong> Expert labeling cost blocks broad deployment of 3D medical segmentation models.</p>
-            <p><strong>Method:</strong> Semi-supervised cross-resolution consistency learning and voxel-wise contrastive learning.</p>
-            <p><strong>Contribution:</strong> Demonstrates strong label efficiency for multi-organ and cross-domain segmentation.</p>
-            <p class="link-row"><a href="https://scholar.google.com/scholar?q=CR-GLoCo+Cross-Resolution+Learning+via+Global-Local+Context+Consistency" target="_blank" rel="noopener">CR-GLoCo</a><a href="https://scholar.google.com/scholar?q=CVCL+Context-aware+Voxel-wise+Contrastive+Learning" target="_blank" rel="noopener">CVCL</a></p>
-          </article>
-        </div>
-      </section>
-
       <section class="panel reveal" id="publications">
         <div class="section-head">
           <h2 data-zh="代表论文" data-en="Selected Publications">Selected Publications</h2>
@@ -155,6 +110,14 @@
             <p>Computerized Medical Imaging and Graphics (in press).</p>
             <p class="link-row"><a href="https://scholar.google.com/scholar?q=CR-GLoCo+Cross-Resolution+Learning+via+Global-Local+Context+Consistency+for+Semi-Supervised+3D+Medical+Segmentation" target="_blank" rel="noopener">Paper</a><a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Profile</a></p>
             <p class="contrib">One-line contribution: Cross-resolution global-local consistency for label-efficient 3D segmentation.</p>
+          </article>
+          <article class="pub-item">
+            <div class="pub-meta"><span>2026</span><span>bioRxiv</span></div>
+            <h3>NucleoNet and DropNet: Generalist deep learning models for instance segmentation of nuclei and lipid droplets from electron microscopy images</h3>
+            <p class="authors">Abhishek Bhardwaj, Chris W Dell, Melissa R Mikolaj, Helen Spiers, Adam Harned, Balamurugan Kuppusamy, <strong>Peng Liu</strong>, Donglai Wei, Esta Sterneck, Kedar Narayan</p>
+            <p>bioRxiv (Preprint), 2026.04.02.713930.</p>
+            <p class="link-row"><a href="https://doi.org/10.64898/2026.04.02.713930" target="_blank" rel="noopener">Paper</a></p>
+            <p class="contrib">One-line contribution: Introduces generalist instance models (NucleoNet and DropNet) for robust nuclei and lipid-droplet segmentation across heterogeneous EM datasets.</p>
           </article>
           <article class="pub-item">
             <div class="pub-meta"><span>2025</span><span>Under Review</span></div>
@@ -247,10 +210,8 @@
             <h2 data-zh="联系" data-en="Contact">Contact</h2>
           </div>
           <ul class="compact-list" id="contact-list">
-            <li><strong>Email:</strong> <a href="mailto:liupen@bc.edu">liupen@bc.edu</a></li>
             <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Profile</a></li>
             <li><strong>GitHub:</strong> <a href="https://github.com/pliu-ai" target="_blank" rel="noopener">github.com/pliu-ai</a></li>
-            <li><strong>Website:</strong> <a href="https://pliu-ai.github.io" target="_blank" rel="noopener">pliu-ai.github.io</a></li>
           </ul>
         </section>
       </section>
