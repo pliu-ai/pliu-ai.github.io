@@ -198,12 +198,40 @@ h1 {
   max-width: 45ch;
 }
 
-.keywords-line {
-  margin: 8px 0 0;
-  max-width: 52ch;
+.keyword-rows {
+  margin: 10px 0 0;
+  max-width: 70ch;
+  display: grid;
+  gap: 8px;
+}
+
+.keyword-row {
+  display: grid;
+  grid-template-columns: minmax(190px, 250px) 1fr;
+  gap: 10px;
+  align-items: start;
+}
+
+.keyword-term {
+  margin: 0;
   color: #1d5554;
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.keyword-papers {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+.keyword-papers a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.keyword-papers a:hover {
+  text-decoration: underline;
 }
 
 .job-market {
@@ -365,32 +393,6 @@ h1 {
   gap: 10px;
 }
 
-.topic-map {
-  margin-bottom: 14px;
-}
-
-.topic-map .card {
-  display: grid;
-  gap: 8px;
-}
-
-.topic-map h3 {
-  margin-bottom: 0;
-}
-
-.topic-list {
-  margin: 0;
-}
-
-.topic-list a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.topic-list a:hover {
-  text-decoration: underline;
-}
-
 .pub-item {
   border: 1px solid var(--stroke);
   border-radius: 12px;
@@ -529,6 +531,11 @@ h1 {
   .hero-card {
     max-width: 420px;
     justify-self: center;
+  }
+
+  .keyword-row {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .site-header {
