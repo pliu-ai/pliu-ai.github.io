@@ -153,14 +153,15 @@ main {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
-  gap: 0;
-  align-items: stretch;
+  position: relative;
+  padding: 28px;
+  overflow: hidden;
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius);
+  background: color-mix(in oklab, var(--panel) 94%, white);
+  box-shadow: var(--shadow);
 }
 
-.hero-text,
-.hero-card,
 .panel {
   border: 1px solid var(--stroke);
   border-radius: var(--radius);
@@ -169,7 +170,13 @@ main {
 }
 
 .hero-text {
-  padding: 28px;
+  padding: 0;
+}
+
+.hero-text::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .kicker {
@@ -289,46 +296,21 @@ h1 {
 }
 
 .hero-card {
+  float: right;
+  width: 260px;
+  margin: 2px 0 16px 22px;
   overflow: hidden;
-  max-width: none;
-  justify-self: stretch;
+  max-width: 36%;
 }
 
 .hero-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
-  max-height: 300px;
-}
-
-.hero-card-content {
-  padding: 16px 18px 20px;
-}
-
-.hero-card-content p {
-  margin: 0;
-  color: var(--muted);
-}
-
-.advisor-note {
-  margin-top: 10px;
-  font-size: 0.9rem;
-}
-
-.advisor-note a {
-  color: var(--accent);
-  text-decoration: none;
-  border-bottom: 1px solid color-mix(in oklab, var(--accent) 55%, white);
-}
-
-.advisor-note a:hover {
-  border-bottom-color: var(--accent);
-}
-
-.hero-card-content h2 {
-  margin: 6px 0 8px;
-  font-size: 1.3rem;
+  max-height: 340px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(27, 36, 51, 0.14);
 }
 
 .panel {
@@ -528,9 +510,20 @@ h1 {
     grid-template-columns: 1fr;
   }
 
+  .hero {
+    display: block;
+    padding: 24px;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+
   .hero-card {
-    max-width: 420px;
-    justify-self: center;
+    float: none;
+    width: min(250px, 56vw);
+    margin: 2px auto 16px;
+    max-width: none;
   }
 
   .keyword-row {
@@ -556,9 +549,17 @@ h1 {
 }
 
 @media (max-width: 520px) {
-  .hero-text,
   .panel {
     padding: 18px;
+  }
+
+  .hero {
+    padding: 18px;
+  }
+
+  .hero-card {
+    width: min(210px, 60vw);
+    margin: 2px auto 14px;
   }
 
   .contact-chips {
