@@ -45,22 +45,23 @@
           <h1>Peng Liu, Ph.D.</h1>
           <p
             class="lead"
-            data-zh="我的研究聚焦三个方向：3D 泛细胞器分割、基础模型和标注高效学习。当前重点是 3D EM 细胞器分割，在 MitoEM 2.0 和 CellMap 等任务中开展基于基准的线粒体、细胞核与泛细胞器结构分割研究，并与波士顿学院 Donglai Wei 教授合作。"
-            data-en="My research focuses on three areas: 3D pan-organelle segmentation, foundation models, and annotation-efficient learning. My current focus is 3D EM organelle segmentation, including benchmark-driven research on mitochondria, nuclei, and pan-organelle structures in MitoEM 2.0 and CellMap-style settings, in collaboration with Prof. Donglai Wei at Boston College."
+            data-zh="我围绕有限标注场景，构建生物医学分割的基准、模型与学习方法框架。"
+            data-en="I develop benchmark, model, and learning frameworks for biomedical segmentation under limited-label regimes."
           >
-            My research focuses on three areas: 3D pan-organelle segmentation, foundation models, and annotation-efficient learning. My current focus is 3D EM organelle segmentation, including benchmark-driven research on mitochondria, nuclei, and pan-organelle structures in MitoEM 2.0 and CellMap-style settings, in collaboration with Prof. Donglai Wei at Boston College.
+            I develop benchmark, model, and learning frameworks for biomedical segmentation under limited-label regimes.
           </p>
           <div class="keyword-rows" aria-label="Keyword to papers">
+            <p class="keyword-program" data-zh="标签高效生物医学分割" data-en="Label-Efficient Biomedical Segmentation">Label-Efficient Biomedical Segmentation</p>
             <div class="keyword-row">
-              <p class="keyword-term" data-zh="3D 泛细胞器分割" data-en="3D Pan-Organelle Segmentation">3D Pan-Organelle Segmentation</p>
-              <p class="keyword-papers"><a href="#paper-mitoem20">MitoEM 2.0 (Scientific Data)</a>; CellMap Segmentation Challenge (1st Place, 2026)</p>
+              <p class="keyword-term" data-zh="1）有限标注下的基准与评测" data-en="1) Benchmarking and Evaluation Under Limited Labels">1) Benchmarking and Evaluation Under Limited Labels</p>
+              <p class="keyword-papers"><a href="#paper-anchorslot">AnchorSlot (TMI, in prep)</a>; <a href="#paper-mitoem20">MitoEM 2.0 (Scientific Data)</a>; CellMap Segmentation Challenge (1st Place, 2026)</p>
             </div>
             <div class="keyword-row">
-              <p class="keyword-term" data-zh="通用 EM 实例模型" data-en="Generalist EM Instance Models">Generalist EM Instance Models</p>
+              <p class="keyword-term" data-zh="2）稀疏监督场景下的通用表示" data-en="2) Generalist Representation for Sparse-Supervision Settings">2) Generalist Representation for Sparse-Supervision Settings</p>
               <p class="keyword-papers"><a href="#paper-nucleonet-dropnet">NucleoNet and DropNet (bioRxiv)</a></p>
             </div>
             <div class="keyword-row">
-              <p class="keyword-term" data-zh="标注高效学习" data-en="Annotation-Efficient Learning">Annotation-Efficient Learning</p>
+              <p class="keyword-term" data-zh="3）降低标注负担的学习策略" data-en="3) Learning Strategies to Reduce Annotation Burden">3) Learning Strategies to Reduce Annotation Burden</p>
               <p class="keyword-papers"><a href="#paper-cr-gloco">CR-GLoCo (CMIG)</a>; <a href="#paper-cvcl-cbm">CVCL (CBM, MICCAI)</a>; <a href="#paper-jbhi-2022">Handling Imbalanced Data (JBHI)</a></p>
             </div>
           </div>
@@ -98,6 +99,15 @@
         </div>
 
         <div class="pub-list">
+          <article class="pub-item" id="paper-anchorslot">
+            <div class="pub-meta"><span>2026</span><span>In Preparation</span></div>
+            <h3>AnchorSlot: Hybrid Target Coding for Volumetric EM Organelle Segmentation</h3>
+            <p class="authors"><strong>Peng Liu</strong>, Donglai Wei</p>
+            <p>To be submitted to IEEE Transactions on Medical Imaging.</p>
+            <img src="assets/anchorslot-fig.png" alt="AnchorSlot overview: hybrid target coding combining fixed anchors and dynamic slots for volumetric EM organelle segmentation" style="width:100%; margin:0.75rem 0; border-radius:6px;" />
+            <p class="contrib">One-line contribution: Hybrid target coding that combines fixed semantic anchors with condition-dependent dynamic slots for improved dense EM organelle segmentation.</p>
+          </article>
+
           <article class="pub-item" id="paper-cr-gloco">
             <div class="pub-meta"><span>2026</span><span>CMIG</span></div>
             <h3>CR-GLoCo: Cross-Resolution Learning via Global-Local Context Consistency for Semi-Supervised 3D Medical Segmentation</h3>
