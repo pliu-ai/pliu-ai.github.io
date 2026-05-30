@@ -45,24 +45,47 @@
           <h1>Peng Liu, Ph.D.</h1>
           <p
             class="lead"
-            data-zh="我围绕有限标注场景，构建生物医学分割的基准、模型与学习方法框架。"
-            data-en="I develop benchmark, model, and learning frameworks for biomedical segmentation under limited-label regimes."
+            data-zh="我围绕分割错误校正、标签高效学习和基础模型三个方向，构建生物医学图像分割的模型、基准与学习策略。"
+            data-en="I develop models, benchmarks, and learning strategies for biomedical image segmentation — spanning error correction, label-efficient learning, and foundation models."
           >
-            I develop benchmark, model, and learning frameworks for biomedical segmentation under limited-label regimes.
+            I develop models, benchmarks, and learning strategies for biomedical image segmentation — spanning error correction, label-efficient learning, and foundation models.
           </p>
-          <div class="keyword-rows" aria-label="Keyword to papers">
-            <p class="keyword-program" data-zh="标签高效生物医学分割" data-en="Label-Efficient Biomedical Segmentation">Label-Efficient Biomedical Segmentation</p>
-            <div class="keyword-row">
-              <p class="keyword-term" data-zh="1）有限标注下的基准与评测" data-en="1) Benchmarking and Evaluation Under Limited Labels">1) Benchmarking and Evaluation Under Limited Labels</p>
-              <p class="keyword-papers"><a href="#paper-anchorslot">AnchorSlot (TMI, in prep)</a>; <a href="#paper-mitoem20">MitoEM 2.0 (Scientific Data)</a>; CellMap Segmentation Challenge (1st Place, 2026)</p>
-            </div>
-            <div class="keyword-row">
-              <p class="keyword-term" data-zh="2）稀疏监督场景下的通用表示" data-en="2) Generalist Representation for Sparse-Supervision Settings">2) Generalist Representation for Sparse-Supervision Settings</p>
-              <p class="keyword-papers"><a href="#paper-nucleonet-dropnet">NucleoNet and DropNet (bioRxiv)</a></p>
-            </div>
-            <div class="keyword-row">
-              <p class="keyword-term" data-zh="3）降低标注负担的学习策略" data-en="3) Learning Strategies to Reduce Annotation Burden">3) Learning Strategies to Reduce Annotation Burden</p>
-              <p class="keyword-papers"><a href="#paper-cr-gloco">CR-GLoCo (CMIG)</a>; <a href="#paper-cvcl-cbm">CVCL (CBM, MICCAI)</a>; <a href="#paper-jbhi-2022">Handling Imbalanced Data (JBHI)</a></p>
+          <div class="keyword-rows" aria-label="Research focus areas">
+            <p class="keyword-program" data-zh="可扩展且可靠的生物医学分割" data-en="Scalable &amp; Reliable Biomedical Segmentation">Scalable &amp; Reliable Biomedical Segmentation</p>
+            <div class="focus-cards">
+              <div class="focus-card">
+                <span class="focus-icon" aria-hidden="true">🔬</span>
+                <div class="focus-body">
+                  <p class="focus-title" data-zh="分割错误校正" data-en="Segmentation Error Correction">Segmentation Error Correction</p>
+                  <div class="focus-pills">
+                    <a href="#paper-affinity-guided" class="focus-pill">Affinity-Guided <span class="pill-venue">In Prep</span></a>
+                    <a href="#paper-nugraph" class="focus-pill">NuGraph <span class="pill-venue">bioRxiv</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="focus-card">
+                <span class="focus-icon" aria-hidden="true">🏷️</span>
+                <div class="focus-body">
+                  <p class="focus-title" data-zh="标签高效学习" data-en="Label-Efficient Learning">Label-Efficient Learning</p>
+                  <div class="focus-pills">
+                    <a href="#paper-cr-gloco" class="focus-pill">CR-GLoCo <span class="pill-venue">CMIG</span></a>
+                    <a href="#paper-cvcl-cbm" class="focus-pill">CVCL <span class="pill-venue">CBM, MICCAI</span></a>
+                    <a href="#paper-jbhi-2022" class="focus-pill">Imbalanced Data <span class="pill-venue">JBHI</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="focus-card">
+                <span class="focus-icon" aria-hidden="true">🧬</span>
+                <div class="focus-body">
+                  <p class="focus-title" data-zh="基础模型与基准评测" data-en="Foundation Models &amp; Benchmarks">Foundation Models &amp; Benchmarks</p>
+                  <div class="focus-pills">
+                    <a href="#paper-anchorslot" class="focus-pill">AnchorSlot <span class="pill-venue">In Prep</span></a>
+                    <a href="#paper-nucleonet-dropnet" class="focus-pill">NucleoNet &amp; DropNet <span class="pill-venue">bioRxiv</span></a>
+                    <a href="#paper-mitoem20" class="focus-pill">MitoEM 2.0 <span class="pill-venue">Sci. Data</span></a>
+                    <span class="focus-pill focus-pill--highlight">🏆 CellMap Challenge <span class="pill-venue">1st, 2026</span></span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <p
@@ -99,62 +122,104 @@
         </div>
 
         <div class="pub-list">
-          <article class="pub-item" id="paper-anchorslot">
-            <div class="pub-meta"><span>2026</span><span>In Preparation</span></div>
-            <h3>AnchorSlot: Hybrid Target Coding for Volumetric EM Organelle Segmentation</h3>
-            <p class="authors"><strong>Peng Liu</strong>, Donglai Wei</p>
-            <p>To be submitted to IEEE Transactions on Medical Imaging.</p>
-            <img src="assets/anchorslot-fig.png" alt="AnchorSlot overview: hybrid target coding combining fixed anchors and dynamic slots for volumetric EM organelle segmentation" style="width:100%; margin:0.75rem 0; border-radius:6px;" />
-            <p class="contrib">One-line contribution: Hybrid target coding that combines fixed semantic anchors with condition-dependent dynamic slots for improved dense EM organelle segmentation.</p>
+          <article class="pub-item" id="paper-anchorslot" style="display:flex; align-items:flex-start; gap:1.25rem;">
+            <img src="assets/anchorslot-fig.png" alt="AnchorSlot overview" style="width:360px; flex-shrink:0; border-radius:6px; margin-top:0.5rem;" />
+            <div style="flex:1; min-width:0;">
+              <div class="pub-meta"><span>2026</span><span>In Preparation</span></div>
+              <h3>AnchorSlot: Hybrid Target Coding for Volumetric EM Organelle Segmentation</h3>
+              <p class="authors"><strong>Peng Liu</strong>, Donglai Wei</p>
+              <p>To be submitted to IEEE Transactions on Medical Imaging.</p>
+              <p class="contrib">One-line contribution: Hybrid target coding that combines fixed semantic anchors with condition-dependent dynamic slots for improved dense EM organelle segmentation.</p>
+            </div>
           </article>
 
-          <article class="pub-item" id="paper-cr-gloco">
-            <div class="pub-meta"><span>2026</span><span>CMIG</span></div>
-            <h3>CR-GLoCo: Cross-Resolution Learning via Global-Local Context Consistency for Semi-Supervised 3D Medical Segmentation</h3>
-            <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
-            <p>Computerized Medical Imaging and Graphics (in press).</p>
-            <p class="link-row"><a href="https://scholar.google.com/scholar?q=CR-GLoCo+Cross-Resolution+Learning+via+Global-Local+Context+Consistency+for+Semi-Supervised+3D+Medical+Segmentation" target="_blank" rel="noopener">Paper</a><a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Profile</a></p>
-            <p class="contrib">One-line contribution: Cross-resolution global-local consistency for label-efficient 3D segmentation.</p>
+          <article class="pub-item" id="paper-affinity-guided" style="display:flex; align-items:flex-start; gap:1.25rem;">
+            <img src="assets/affinity-guided-error-correction.png" alt="Affinity-Guided Superpoint Learning overview" style="width:360px; flex-shrink:0; border-radius:6px; margin-top:0.5rem;" />
+            <div style="flex:1; min-width:0;">
+              <div class="pub-meta"><span>2026</span><span>In Preparation</span></div>
+              <h3>Affinity-Guided Superpoint Learning for False-Merge Correction in 3D EM Mitochondria Segmentation</h3>
+              <p class="authors"><strong>Peng Liu</strong>, Donglai Wei</p>
+              <p>To be submitted to IEEE Transactions on Medical Imaging.</p>
+              <p class="contrib">One-line contribution: Affinity-guided superpoint learning with region growing for correcting false-merge errors in 3D EM mitochondria instance segmentation.</p>
+            </div>
           </article>
-          <article class="pub-item" id="paper-nucleonet-dropnet">
-            <div class="pub-meta"><span>2026</span><span>bioRxiv</span></div>
-            <h3>NucleoNet and DropNet: Generalist deep learning models for instance segmentation of nuclei and lipid droplets from electron microscopy images</h3>
-            <p class="authors">Abhishek Bhardwaj, Chris W Dell, Melissa R Mikolaj, Helen Spiers, Adam Harned, Balamurugan Kuppusamy, <strong>Peng Liu</strong>, Donglai Wei, Esta Sterneck, Kedar Narayan</p>
-            <p>bioRxiv (Preprint), 2026.04.02.713930.</p>
-            <p class="link-row"><a href="https://doi.org/10.64898/2026.04.02.713930" target="_blank" rel="noopener">Paper</a></p>
-            <p class="contrib">One-line contribution: Introduces generalist instance models (NucleoNet and DropNet) for robust nuclei and lipid-droplet segmentation across heterogeneous EM datasets.</p>
+
+          <article class="pub-item" id="paper-cr-gloco" style="display:flex; align-items:flex-start; gap:1.25rem;">
+            <img src="assets/cr-gloco-fig.png" alt="CR-GLoCo overview" style="width:360px; flex-shrink:0; border-radius:6px; margin-top:0.5rem;" />
+            <div style="flex:1; min-width:0;">
+              <div class="pub-meta"><span>2026</span><span>CMIG</span></div>
+              <h3>CR-GLoCo: Cross-Resolution Learning via Global-Local Context Consistency for Semi-Supervised 3D Medical Segmentation</h3>
+              <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
+              <p>Computerized Medical Imaging and Graphics (in press).</p>
+              <p class="link-row"><a href="https://scholar.google.com/scholar?q=CR-GLoCo+Cross-Resolution+Learning+via+Global-Local+Context+Consistency+for+Semi-Supervised+3D+Medical+Segmentation" target="_blank" rel="noopener">Paper</a><a href="https://scholar.google.com/citations?user=7vzR4McAAAAJ&amp;hl=en" target="_blank" rel="noopener">Profile</a></p>
+              <p class="contrib">One-line contribution: Cross-resolution global-local consistency for label-efficient 3D segmentation.</p>
+            </div>
           </article>
-          <article class="pub-item" id="paper-mitoem20">
+          <article class="pub-item" id="paper-nucleonet-dropnet" style="display:flex; align-items:flex-start; gap:1.25rem;">
+            <img src="assets/nucleonet-fig.png" alt="NucleoNet and DropNet overview" style="width:360px; flex-shrink:0; border-radius:6px; margin-top:0.5rem;" />
+            <div style="flex:1; min-width:0;">
+              <div class="pub-meta"><span>2026</span><span>bioRxiv</span></div>
+              <h3>NucleoNet and DropNet: Generalist deep learning models for instance segmentation of nuclei and lipid droplets from electron microscopy images</h3>
+              <p class="authors">Abhishek Bhardwaj, Chris W Dell, Melissa R Mikolaj, Helen Spiers, Adam Harned, Balamurugan Kuppusamy, <strong>Peng Liu</strong>, Donglai Wei, Esta Sterneck, Kedar Narayan</p>
+              <p>bioRxiv (Preprint), 2026.04.02.713930.</p>
+              <p class="link-row"><a href="https://doi.org/10.64898/2026.04.02.713930" target="_blank" rel="noopener">Paper</a></p>
+              <p class="contrib">One-line contribution: Introduces generalist instance models (NucleoNet and DropNet) for robust nuclei and lipid-droplet segmentation across heterogeneous EM datasets.</p>
+            </div>
+          </article>
+          <article class="pub-item" id="paper-nugraph" style="display:flex; align-items:flex-start; gap:1.25rem;">
+            <img src="assets/nugraph-fig.png" alt="NuGraph pipeline overview" style="width:360px; flex-shrink:0; border-radius:6px; margin-top:0.5rem;" />
+            <div style="flex:1; min-width:0;">
+              <div class="pub-meta"><span>2026</span><span>bioRxiv</span></div>
+              <h3>NuGraph: Graph-Based Reasoning over 3D Primitives for Nucleus Segmentation Correction</h3>
+              <p class="authors">Mingzhi Wang, <strong>Peng Liu</strong>, Yi Zhao, Bingzhang Wang, Jia Wan, Liqiang Nie, Donglai Wei</p>
+              <p>bioRxiv (Preprint), 2026.05.16.725603.</p>
+              <p class="link-row"><a href="https://doi.org/10.64898/2026.05.16.725603" target="_blank" rel="noopener">Paper</a><a href="https://mingzhiwang618.github.io/NucEMFix" target="_blank" rel="noopener">Project Page</a></p>
+              <p class="contrib">One-line contribution: Graph-based reasoning over 3D primitives for correcting nucleus segmentation errors in brain-scale EM, with the NucEMFix benchmark.</p>
+            </div>
+          </article>
+          <article class="pub-item" id="paper-mitoem20" style="display:flex; align-items:flex-start; gap:1.25rem;">
+            <img src="assets/MitoEM2.png" alt="MitoEM 2.0 overview" style="width:360px; flex-shrink:0; border-radius:6px; margin-top:0.5rem;" />
+            <div style="flex:1; min-width:0;">
             <div class="pub-meta"><span>2025</span><span>Under Review</span></div>
             <h3>MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images</h3>
             <p class="authors"><strong>Peng Liu</strong>, Boyu Shen, Liyuan Liu, Qiong Wang, Shulin Zhang, Abhishek Bhardwaj, Ignacio Arganda-Carreras, Kedar Narayan, Donglai Wei</p>
             <p>Under review at Scientific Data.</p>
             <p class="link-row"><a href="https://scholar.google.com/scholar?q=MitoEM+2.0+A+Benchmark+for+Challenging+3D+Mitochondria+Instance+Segmentation+from+EM+Images" target="_blank" rel="noopener">Paper</a><a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener">Benchmark Context</a></p>
             <p class="contrib">One-line contribution: Establishes a benchmark focused on robustness and reproducibility for 3D mitochondria instance segmentation.</p>
+            </div>
           </article>
-          <article class="pub-item" id="paper-cvcl-cbm">
+          <article class="pub-item" id="paper-cvcl-cbm" style="display:flex; align-items:flex-start; gap:1.25rem;">
+            <img src="assets/CVCL.png" alt="CVCL overview" style="width:360px; flex-shrink:0; border-radius:6px; margin-top:0.5rem;" />
+            <div style="flex:1; min-width:0;">
             <div class="pub-meta"><span>2023</span><span>CBM</span></div>
             <h3>CVCL: Context-aware Voxel-wise Contrastive Learning for Label-Efficient Multi-Organ Segmentation</h3>
             <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
             <p>Computers in Biology and Medicine.</p>
             <p class="link-row"><a href="https://scholar.google.com/scholar?q=CVCL+Context-aware+Voxel-wise+Contrastive+Learning+for+Label-Efficient+Multi-Organ+Segmentation" target="_blank" rel="noopener">Paper</a></p>
             <p class="contrib">One-line contribution: Improves semi-supervised multi-organ segmentation via context-aware voxel contrastive objectives.</p>
+            </div>
           </article>
-          <article class="pub-item" id="paper-jbhi-2022">
+          <article class="pub-item" id="paper-jbhi-2022" style="display:flex; align-items:flex-start; gap:1.25rem;">
+            <img src="assets/handling_imbalanced_data.png" alt="Handling Imbalanced Data overview" style="width:360px; flex-shrink:0; border-radius:6px; margin-top:0.5rem;" />
+            <div style="flex:1; min-width:0;">
             <div class="pub-meta"><span>2022</span><span>JBHI</span></div>
             <h3>Handling Imbalanced Data: Uncertainty-Guided Virtual Adversarial Training With Batch Nuclear-Norm Optimization for Semi-Supervised Medical Image Classification</h3>
             <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
             <p>IEEE Journal of Biomedical and Health Informatics, 26(7):2983-2994.</p>
             <p class="link-row"><a href="https://scholar.google.com/scholar?q=Handling+Imbalanced+Data+Uncertainty-Guided+Virtual+Adversarial+Training+With+Batch+Nuclear-Norm+Optimization+for+Semi-Supervised+Medical+Image+Classification" target="_blank" rel="noopener">Paper</a></p>
             <p class="contrib">One-line contribution: Addresses class imbalance with uncertainty-guided adversarial regularization and batch nuclear-norm optimization in semi-supervised medical image classification.</p>
+            </div>
           </article>
-          <article class="pub-item" id="paper-cvcl-miccai">
+          <article class="pub-item" id="paper-cvcl-miccai" style="display:flex; align-items:flex-start; gap:1.25rem;">
+            <img src="assets/context-aware-learning.png" alt="Context-aware Voxel-wise Contrastive Learning overview" style="width:360px; flex-shrink:0; border-radius:6px; margin-top:0.5rem;" />
+            <div style="flex:1; min-width:0;">
             <div class="pub-meta"><span>2022</span><span>MICCAI</span></div>
             <h3>Context-aware Voxel-wise Contrastive Learning for Label Efficient Multi-Organ Segmentation</h3>
             <p class="authors"><strong>Peng Liu</strong>, Guoyan Zheng</p>
             <p>International Conference on Medical Image Computing and Computer-Assisted Intervention.</p>
             <p class="link-row"><a href="https://scholar.google.com/scholar?q=Context-aware+Voxel-wise+Contrastive+Learning+for+Label+Efficient+Multi-Organ+Segmentation" target="_blank" rel="noopener">Paper</a></p>
             <p class="contrib">One-line contribution: Introduces voxel-wise contrastive design for label-efficient learning in 3D segmentation.</p>
+            </div>
           </article>
         </div>
       </section>

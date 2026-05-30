@@ -206,45 +206,109 @@ h1 {
 }
 
 .keyword-rows {
-  margin: 10px 0 0;
-  max-width: 70ch;
+  margin: 14px 0 0;
   display: grid;
-  gap: 8px;
+  gap: 10px;
 }
 
 .keyword-program {
-  margin: 0 0 2px;
+  margin: 0 0 4px;
   color: var(--accent);
   font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
 }
 
-.keyword-row {
+/* --- Focus cards --- */
+.focus-cards {
   display: grid;
-  grid-template-columns: minmax(190px, 250px) 1fr;
   gap: 10px;
-  align-items: start;
 }
 
-.keyword-term {
-  margin: 0;
-  color: #1d5554;
-  font-size: 0.95rem;
+.focus-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--stroke);
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(135deg, #fffef8 0%, #f5faf8 100%);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.focus-card:hover {
+  box-shadow: 0 6px 20px rgba(15, 107, 107, 0.10);
+  transform: translateY(-2px);
+}
+
+.focus-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.focus-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.focus-title {
+  margin: 0 0 6px;
+  font-family: "Fraunces", "Noto Serif SC", serif;
+  font-size: 0.98rem;
   font-weight: 700;
+  color: #1d5554;
 }
 
-.keyword-papers {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.93rem;
+.focus-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
-.keyword-papers a {
+.focus-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  font-size: 0.82rem;
+  font-weight: 500;
   color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
   text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
 }
 
-.keyword-papers a:hover {
-  text-decoration: underline;
+a.focus-pill:hover {
+  background: var(--accent);
+  color: #effcf8;
+}
+
+a.focus-pill:hover .pill-venue {
+  color: rgba(239, 252, 248, 0.7);
+}
+
+.pill-venue {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #3a8a8a;
+  opacity: 0.8;
+  transition: color 0.2s ease;
+}
+
+.focus-pill--highlight {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  color: #92400e;
+  font-weight: 600;
+  border: 1px solid #fcd34d;
+}
+
+.focus-pill--highlight .pill-venue {
+  color: #a16207;
 }
 
 .job-market {
@@ -532,9 +596,13 @@ h1 {
     max-width: none;
   }
 
-  .keyword-row {
-    grid-template-columns: 1fr;
-    gap: 4px;
+  .focus-card {
+    padding: 12px 14px;
+    gap: 10px;
+  }
+
+  .focus-icon {
+    font-size: 1.25rem;
   }
 
   .site-header {
