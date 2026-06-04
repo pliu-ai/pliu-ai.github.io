@@ -23,7 +23,7 @@
 \DefineBibliographyStrings{english}{url={\textsc{url}}}
 
 %% Only needed if you want a Publication List
-\addbibresource{own-bib.bib}
+% \addbibresource{own-bib.bib}
 
 %% Specify your last name(s) and first name(s) (as given in the .bib) to automatically bold your own name in the publications list. 
 %% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
@@ -43,10 +43,10 @@ Liu$^*$/Peng}
 \ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
   \usepackage{fontspec} 
   \newcommand*{\house}[2]{{\fontspec{#1}\symbol{"#2}}}
-  %% You can use \setmainfont etc; I'm just using these font packages here because they provide OpenType fonts for use by XeLaTeX/LuaLaTeX anyway
-  \usepackage[p,osf,swashQ]{cochineal}
-  \usepackage[medium,bold]{cabin}
-  \usepackage[varqu,varl,scale=0.9]{zi4}
+  % Use macOS system fonts for reliable XeLaTeX compilation.
+  \setmainfont{Times New Roman}
+  \setsansfont{Arial}
+  \setmonofont{Menlo}
 \else % If you're using pdfLaTeX or latex
   \usepackage[T1]{fontenc}
   \usepackage[p,osf,swashQ]{cochineal}
@@ -77,6 +77,7 @@ Liu$^*$/Peng}
 
   \makefield{\faEnvelope[regular]}{\href{mailto:liupen@bc.edu}{\texttt{liupen@bc.edu}}}
 \makefield{\faIcon{mobile}}{{\texttt{(857)-540-4818}}}
+  \makefield{\faIcon{calendar-alt}}{{\texttt{1994年11月}}}
   \makefield{\faIcon{map-marker-alt}}
   {{\texttt{波士顿, 美国}}}
   %en\makefield{\href{https://github.com/luckieucas}{\faGithubSquare}}    
@@ -103,11 +104,12 @@ Liu$^*$/Peng}
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
 \input{publications-cn}
+\makerubric{project-cn}
+\makerubric{software-cn}
 \makerubric{awards-cn}
-\makerubric{ip-cn}
 \makerubric{teaching-cn}
-\makerubric{courses-cn}
 \makerubric{reviewer-cn}
+\makerubric{ip-cn}
 %\makerubric{skills-cn}
 %\makerubric{misc}
 
