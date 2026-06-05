@@ -13,7 +13,7 @@
 
 
 % Default biblatex style used for the publication list is APA6. If you wish to use a different style or pass other options to biblatex you can change them here. 
-\PassOptionsToPackage{style=ieee,uniquename=init,defernumbers=true}{biblatex}
+\PassOptionsToPackage{style=ieee,uniquename=init,defernumbers=true,maxbibnames=99}{biblatex}
 
 % Most commands and style definitions are in settings.sty.
 \usepackage{settings}
@@ -43,10 +43,10 @@ Liu$^*$/Peng}
 \ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
   \usepackage{fontspec} 
   \newcommand*{\house}[2]{{\fontspec{#1}\symbol{"#2}}}
-  %% You can use \setmainfont etc; I'm just using these font packages here because they provide OpenType fonts for use by XeLaTeX/LuaLaTeX anyway
-  \usepackage[p,osf,swashQ]{cochineal}
-  \usepackage[medium,bold]{cabin}
-  \usepackage[varqu,varl,scale=0.9]{zi4}
+  % Use macOS system fonts for reliable XeLaTeX compilation.
+  \setmainfont{Times New Roman}
+  \setsansfont{Arial}
+  \setmonofont{Menlo}
 \else % If you're using pdfLaTeX or latex
   \usepackage[T1]{fontenc}
   \usepackage[p,osf,swashQ]{cochineal}
@@ -64,9 +64,9 @@ Liu$^*$/Peng}
 % Change the item prefix marker if you want
 % \prefixmarker{$\diamond$}
 
-%% Photo is only shown if "fullonly" is included
-\includecomment{fullonly}
-% \excludecomment{fullonly}
+%% Photo is usually omitted in US academic CVs.
+% \includecomment{fullonly}
+\excludecomment{fullonly}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -77,8 +77,10 @@ Liu$^*$/Peng}
 
   \makefield{\faEnvelope[regular]}{\href{mailto:liupen@bc.edu}{\texttt{liupen@bc.edu}}}
 \makefield{\faIcon{mobile}}{{\texttt{(857)-540-4818}}}
+  \makefield{\faIcon{graduation-cap}}{\href{https://scholar.google.com/citations?user=7vzR4McAAAAJ&hl=en}{Google Scholar}}
+  \makefield{\faIcon{globe}}{\href{https://pliu-ai.github.io}{pliu-ai.github.io}}
   \makefield{\faIcon{map-marker-alt}}
-  {{\texttt{Boston}}}
+  {{\texttt{Boston, MA, USA}}}
   %en\makefield{\href{https://github.com/luckieucas}{\faGithubSquare}}    
 
 
@@ -96,15 +98,17 @@ Liu$^*$/Peng}
 \begin{document}
 \makeheaders[c]
 \makerubric{research_interest}
-\makerubric{education}
 \makerubric{employment}
+\makerubric{education}
 
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
 \input{publications}
+\makerubric{software}
 \makerubric{awards}
 \makerubric{teaching}
 \makerubric{reviewer}
+\makerubric{ip}
 \makerubric{skills}
 %\makerubric{misc}
 

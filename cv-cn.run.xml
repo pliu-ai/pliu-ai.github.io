@@ -82,8 +82,5 @@
     <requires type="dynamic">
       <file>cv-cn.bcf</file>
     </requires>
-    <requires type="editable">
-      <file>own-bib.bib</file>
-    </requires>
   </external>
 </requests>

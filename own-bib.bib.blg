@@ -1,0 +1,6 @@
+[0] Config.pm:308> INFO - This is Biber 2.20 running in TOOL mode
+[0] Config.pm:311> INFO - Logfile is 'own-bib.bib.blg'
+[36] biber-darwin:340> INFO - === Mon Mar 16, 2026, 00:36:30
+[53] Biber.pm:4650> INFO - Looking for bibtex file 'own-bib.bib'
+[55] bibtex.pm:1713> INFO - LaTeX decoding ...
+[62] bibtex.pm:1519> INFO - Found BibTeX data source 'own-bib.bib'
