@@ -50,7 +50,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{(JCR Q1, IF=6.8)}
+      \field{addendum}{(JCR Q1, CAS Q1, IF=6.8)}
       \field{journaltitle}{IEEE Journal of Biomedical and Health Informatics}
       \field{number}{7}
       \field{title}{Handling Imbalanced Data: Uncertainty-Guided Virtual Adversarial Training With Batch Nuclear-Norm Optimization for Semi-Supervised Medical Image Classification}
@@ -611,6 +611,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{bioRxiv}
+      \field{note}{Under review at IEEE Transactions on Medical Imaging}
       \field{title}{NuGraph: Graph-Based Reasoning over 3D Primitives for Nucleus Segmentation Correction}
       \field{year}{2026}
       \true{nocite}
@@ -692,7 +693,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{(JCR Q1, IF=6.9)}
-      \field{note}{Major Revision at Scientific Data}
+      \field{note}{Minor Revision at Scientific Data}
       \field{title}{MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images}
       \field{year}{2025}
       \true{nocite}
