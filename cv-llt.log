@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  5 JUN 2026 22:33
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  10 JUN 2026 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,15 +1141,15 @@ LaTeX Font Info:    ... okay on input line 98.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(64.01869pt, 469.47049pt, 64.01869pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=469.47049pt
-* \textheight=731.23584pt
-* \oddsidemargin=-8.2513pt
-* \evensidemargin=-8.2513pt
-* \topmargin=-15.36449pt
+* \textwidth=512.14963pt
+* \textheight=759.6886pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-29.59087pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=11.0pt
@@ -1275,16 +1275,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 
-[2]
-
 LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
 (Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 16.
 
-) (./software.tex) (./software.tex) (./software.tex) (./software.tex)
+
+
+[2]) (./software.tex) (./software.tex) (./software.tex) (./software.tex)
 (./awards.tex) (./awards.tex) (./awards.tex) (./awards.tex) (./teaching.tex)
-(./teaching.tex) (./teaching.tex) (./teaching.tex [3]) (./reviewer.tex)
+(./teaching.tex) (./teaching.tex) (./teaching.tex) (./reviewer.tex)
 (./reviewer.tex) (./reviewer.tex) (./reviewer.tex) (./ip.tex) (./ip.tex)
-(./ip.tex) (./ip.tex) (./skills.tex) (./skills.tex) (./skills.tex)
+(./ip.tex) (./ip.tex [3]) (./skills.tex) (./skills.tex) (./skills.tex)
 (./skills.tex)
 
 [4] (./cv-llt.aux)
@@ -1305,10 +1305,10 @@ Package logreq Info: Writing requests to 'cv-llt.run.xml'.
 Here is how much of TeX's memory you used:
  35611 strings out of 473832
  738802 string characters out of 5729482
- 1667658 words of memory out of 5000000
+ 1670675 words of memory out of 5000000
  58016 multiletter control sequences out of 15000+600000
  563289 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 100i,9n,101p,1199b,5259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,9n,101p,1199b,5257s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv-llt.pdf (4 pages).
+Output written on cv-llt.xdv (4 pages, 129124 bytes).

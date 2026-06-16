@@ -1,0 +1,84 @@
+\documentclass[aspectratio=169, xcolor=table, 10pt]{beamer}
+\usepackage[UTF8]{ctex}
+\usepackage{fontawesome5}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\usetheme{metropolis}
+\definecolor{myblue}{RGB}{0, 85, 150}
+\definecolor{myred}{RGB}{180, 0, 0}
+\setbeamercolor{palette primary}{bg=myblue, fg=white}
+\setbeamercolor{structure}{fg=myblue}
+
+\begin{document}
+
+\begin{frame}[shrink]{论文与科研成果展示}
+    \begin{columns}[T]
+        % 左侧：数据总结与荣誉
+        \begin{column}{0.34\textwidth}
+            \begin{tcolorbox}[enhanced, colback=myblue!5!white, colframe=myblue!80!black, boxrule=0.5pt, arc=3pt, left=2pt, right=2pt, top=2pt, bottom=2pt, title=\textbf{\footnotesize \faChartBar\ 成果概览}]
+                \scriptsize
+                \begin{itemize}
+                    \setlength\itemsep{0.5em}
+                    \item \textbf{论文总数：} 10 篇 (期刊 7，会议 3)
+                    \item \textbf{一作/共一：} 8 篇
+                    \item \textbf{期刊：} JCR Q1 3篇，Q2 2篇
+                    \item \textbf{会议：} MICCAI/CCF-B 2篇
+                    \item \textbf{知识产权：} 专利 1 项，软著 1 项
+                \end{itemize}
+            \end{tcolorbox}
+            
+            \vspace{0.5em}
+            
+            \begin{tcolorbox}[enhanced, colback=myred!5!white, colframe=myred!80!black, boxrule=0.5pt, arc=3pt, left=2pt, right=2pt, top=2pt, bottom=2pt, title=\textbf{\footnotesize \faTrophy\ 竞赛荣誉}]
+                \scriptsize
+                \begin{itemize}
+                    \setlength\itemsep{0.5em}
+                    \item \textbf{第一名} (1/50+)\\
+                    CellMap Segmentation Challenge 2026\\
+                    \tiny{(eFIB-SEM 多细胞器实例分割)}
+                    \item \textbf{第二名}\\
+                    MICCAI FLARE 挑战赛 2023\\
+                    \tiny{(腹部器官和泛肿瘤分割)}
+                \end{itemize}
+            \end{tcolorbox}
+            
+        \end{column}
+
+        % 右侧：代表性作
+        \begin{column}{0.64\textwidth}
+            \textbf{\normalsize \faBook\ 代表性论文 (一作/共一)}
+            \vspace{0.3em}
+            
+            \scriptsize
+            \begin{enumerate}
+                \setlength\itemsep{0.5em}
+                
+                \item \textbf{Liu, P.}, Shen, B., et al. "MitoEM 2.0: A benchmark for challenging 3D mitochondria instance segmentation from EM images."\\
+                \textcolor{myblue}{\textbf{\textit{Scientific Data} (小修已修回)}} (2025) \hfill \textcolor{myred}{\textbf{JCR Q1 (IF=6.9)}}
+                
+                \item \textbf{Liu, P.}, \& Zheng, G. "CR-GloCo: Cross-resolution learning via global-local context consistency for semi-supervised 3D medical segmentation."\\
+                \textcolor{myblue}{\textbf{\textit{Computerized Medical Imaging and Graphics}}} (2026) \hfill \textcolor{myred}{\textbf{JCR Q1 (IF=4.9)}}
+                
+                \item \textbf{Liu, P.}, \& Zheng, G. "CVCL: Context-aware voxel-wise contrastive learning for label-efficient multi-organ segmentation."\\
+                \textcolor{myblue}{\textbf{\textit{Computers in Biology and Medicine}}} (2023) \hfill \textcolor{myred}{\textbf{JCR Q1 (IF=7.7)}}
+                
+                \item \textbf{Liu, P.}, \& Zheng, G. "Handling imbalanced data: Uncertainty-guided virtual adversarial training with batch nuclear-norm optimization..."\\
+                \textcolor{myblue}{\textbf{\textit{IEEE Journal of Biomedical and Health Informatics}}} (2022) \hfill \textcolor{myred}{\textbf{JCR Q1, 中科院一区 (IF=7.7)}}
+                
+            \end{enumerate}
+
+            \vspace{0.5em}
+            \textbf{\normalsize \faHandshake\ 重要合作论文}
+            \vspace{0.3em}
+            
+            \begin{itemize}
+                \item Shi, D., ..., \textbf{Liu, P.}, et al. "Simultaneous brain-wide single-cell recording resolves spatiotemporal memory architecture."\\
+                \textcolor{myblue}{\textbf{\textit{Under Review at Nature}}} (2026)
+            \end{itemize}
+            
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\end{document}

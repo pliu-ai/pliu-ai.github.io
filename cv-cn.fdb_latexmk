@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber cv-cn"] 1773635972.38765 "cv-cn.bcf" "cv-cn.bbl" "cv-cn" 1773711218.83771 0
-  "cv-cn.bcf" 1773711218.32343 107243 38ba200cb251cb30b28c824d553089f1 "xelatex"
+["biber cv-cn"] 1780873943.07806 "cv-cn.bcf" "cv-cn.bbl" "cv-cn" 1781645467.99412 0
+  "cv-cn.bcf" 1781645467.44386 107243 38ba200cb251cb30b28c824d553089f1 "xelatex"
   (generated)
   "cv-cn.bbl"
   "cv-cn.blg"
   (rewritten before read)
-["xdvipdfmx"] 1773711218.41381 "cv-cn.xdv" "cv-cn.pdf" "cv-cn" 1773711218.83984 0
-  "cv-cn.xdv" 1773711218.32451 93732 ae71f6652c17544667342cef211ee781 "xelatex"
+["xdvipdfmx"] 1781645467.53208 "cv-cn.xdv" "cv-cn.pdf" "cv-cn" 1781645467.99624 0
+  "cv-cn.xdv" 1781645467.445 115188 a7552b79e4041ce9aef0e4149d222a1c "xelatex"
   (generated)
   "cv-cn.pdf"
   (rewritten before read)
-["xelatex"] 1773711214.5401 "cv-cn.tex" "cv-cn.xdv" "cv-cn" 1773711218.83778 0
+["xelatex"] 1781645464.7078 "cv-cn.tex" "cv-cn.xdv" "cv-cn" 1781645467.99417 0
   "/System/Library/Fonts/Menlo.ttc" 1758783812 2156036 ec05dfca6821d85440da0899493002c3 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -220,24 +220,26 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "awards-cn.tex" 1773635738.37465 821 53b210b372432777515a334c8c97f0da ""
-  "comment.cut" 1773711217.67754 35 b4d972567009d71053ecacf3434612eb "xelatex"
-  "cv-cn.aux" 1773711218.31805 1318 3ef8215341251f6e7be87754f5b3648e "xelatex"
-  "cv-cn.bbl" 1773635975.61081 0 d41d8cd98f00b204e9800998ecf8427e "biber cv-cn"
-  "cv-cn.out" 1773711217.88134 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "cv-cn.run.xml" 1773711218.32418 2363 8fce3f17dede703bfa80b5165f6b220c "xelatex"
-  "cv-cn.tex" 1773711211.68109 3958 cbfbdeedd59719f8a8f4dce2f935c147 ""
-  "education-cn.tex" 1773635738.37425 604 acf67e2c5a4317836aa3451b9ad15d5f ""
-  "employment-cn.tex" 1773635738.37434 1822 17952c013e28150007bcfbfaf66481f8 ""
-  "ip-cn.tex" 1773459853.7784 435 9f8e2a904beef114b069a48e5ed3d99b ""
-  "overview-cn.tex" 1773635738.37383 1317 979d50c6f03182c43f6ffd68d7f10391 ""
+  "awards-cn.tex" 1780801255.65454 985 ffe3eb7aa00ce11a234ba9a56e2e8ba0 ""
+  "comment.cut" 1781645466.91337 35 b4d972567009d71053ecacf3434612eb "xelatex"
+  "cv-cn.aux" 1781645467.43904 1528 26e53fcc7f607a34b64311f41b319503 "xelatex"
+  "cv-cn.bbl" 1780874002.66629 0 d41d8cd98f00b204e9800998ecf8427e "biber cv-cn"
+  "cv-cn.out" 1781645466.98864 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "cv-cn.run.xml" 1781645467.44464 2363 8fce3f17dede703bfa80b5165f6b220c "xelatex"
+  "cv-cn.tex" 1780874267.21456 4379 e9a6e31d78d156643385096add636cf7 ""
+  "education-cn.tex" 1780104666.08383 604 acf67e2c5a4317836aa3451b9ad15d5f ""
+  "employment-cn.tex" 1780878322.68463 2086 fef1e2111aac7d1c77da2870b6721901 ""
+  "future_research-cn.tex" 1780873905.77634 734 540e5f27e31d5b50a0b4c203d3680f08 ""
+  "ip-cn.tex" 1780104666.08595 435 9f8e2a904beef114b069a48e5ed3d99b ""
+  "overview-cn.tex" 1780876985.3019 527 671cc94f5d9de896edecd9545df42541 ""
   "photo.jpg" 1768535906 169080 c86de7a35415111d945eb1c9ca07fcf7 ""
-  "project-cn.tex" 1773461513.67625 1800 67d281c846e07669284bf3339d6db91a ""
-  "publications-cn.tex" 1773709348.16889 3188 9e28f27593c3a28219285ebbb8060aad ""
-  "research_interest-cn.tex" 1773635738.37416 242 353178f70742ac4209080d8617a042dc ""
-  "reviewer-cn.tex" 1773635738.37506 453 b431117375a76e3e39e118beaa76b2ad ""
-  "settings.sty" 1769527243.54427 5505 fcaca50be07c4ff269972f472588df3a ""
-  "teaching-cn.tex" 1773635738.37496 649 f92ceeaf4e5426b8d22d1227fa37d18c ""
+  "project-cn.tex" 1780876071.0994 1158 d43ee8df2f4d88f956d105843e70bbb9 ""
+  "publications-cn.tex" 1781645454.96186 6881 b860299e275d5c2ec500d3b6cc1ee9a9 ""
+  "research_interest-cn.tex" 1780873905.7721 295 66a964190799c85c986b44e96edf7586 ""
+  "reviewer-cn.tex" 1780713742.4301 393 b3a91b9a873abe49638b90d585272189 ""
+  "settings.sty" 1780856299.81765 5506 add01be342fc5774974a51eb53054fb8 ""
+  "software-cn.tex" 1780583146.10256 461 f45556af4a5bbb950b9c67e4b5be7929 ""
+  "teaching-cn.tex" 1780876294.75347 299 09401a3fbfcb970191c3b5cbd1f00a1e ""
   (generated)
   "comment.cut"
   "cv-cn.aux"

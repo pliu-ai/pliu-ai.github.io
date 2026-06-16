@@ -98,17 +98,28 @@ Liu$^*$/Peng}
 \makerubric{overview-cn}
 \makerubric{research_interest-cn}
 \makerubric{education-cn}
-\makerubric{employment-cn}
+\begingroup
+  % Keep the work-experience section compact without changing other rubrics.
+  \renewcommand{\arraystretch}{1.0}
+  \linespread{0.92}\selectfont
+  \makerubric{employment-cn}
+\endgroup
+\makerubric{future_research-cn}
 
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
 \input{publications-cn}
-\makerubric{project-cn}
-\makerubric{software-cn}
-\makerubric{awards-cn}
-\makerubric{teaching-cn}
-\makerubric{reviewer-cn}
-\makerubric{ip-cn}
+\begingroup
+  % Compact supporting sections so the academic CV remains within four pages.
+  \renewcommand{\arraystretch}{1.05}
+  \linespread{0.97}\selectfont
+  \makerubric{project-cn}
+  \makerubric{software-cn}
+  \makerubric{awards-cn}
+  \makerubric{teaching-cn}
+  \makerubric{reviewer-cn}
+  \makerubric{ip-cn}
+\endgroup
 %\makerubric{skills-cn}
 %\makerubric{misc}
 

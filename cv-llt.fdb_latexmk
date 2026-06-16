@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber cv-llt"] 1778275794.59899 "cv-llt.bcf" "cv-llt.bbl" "cv-llt" 1778275807.78794 0
-  "cv-llt.bcf" 1778275807.24079 107807 6e643e52480ef77c224afe3a906fb5c1 "xelatex"
-  "own-bib.bib" 1778275763.9154 6116 cc19f675b0c98ca9f178a846ad8b70bb ""
+["biber cv-llt"] 1781142920.58725 "cv-llt.bcf" "cv-llt.bbl" "cv-llt" 1781142932.01773 0
+  "cv-llt.bcf" 1781142931.56551 107807 6e643e52480ef77c224afe3a906fb5c1 "xelatex"
+  "own-bib.bib" 1781142631.27744 7440 3d14866f1227e45f9d37c41a7e0541ce ""
   (generated)
   "cv-llt.bbl"
   "cv-llt.blg"
   (rewritten before read)
-["xdvipdfmx"] 1778275807.33172 "cv-llt.xdv" "cv-llt.pdf" "cv-llt" 1778275807.79008 0
-  "cv-llt.xdv" 1778275807.24234 113972 d4c1df5cf152fc0f436896738533991c "xelatex"
+["xdvipdfmx"] 1781142931.64036 "cv-llt.xdv" "cv-llt.pdf" "cv-llt" 1781142932.01948 0
+  "cv-llt.xdv" 1781142931.56655 129124 347bf73703e6f8beb2d21d39337a2c52 "xelatex"
   (generated)
   "cv-llt.pdf"
   (rewritten before read)
-["xelatex"] 1778275804.0956 "cv-llt.tex" "cv-llt.xdv" "cv-llt" 1778275807.78805 0
+["xelatex"] 1781142929.01627 "cv-llt.tex" "cv-llt.xdv" "cv-llt" 1781142932.01778 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -203,21 +203,22 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "awards.tex" 1776134885.15991 963 8705c4bd2e0cd69d11f1ca2e73b18aa0 ""
-  "cv-llt.aux" 1778275807.23526 3452 7f70dad8c3d2ea5a48f4db84c052b112 "xelatex"
-  "cv-llt.bbl" 1778275797.21862 30030 cbbf966bf129f487aafef8a8f16d6b88 "biber cv-llt"
-  "cv-llt.out" 1778275806.67332 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "cv-llt.run.xml" 1778275807.24193 2448 b123e4ed2233b4dadf0b53323ee8af46 "xelatex"
-  "cv-llt.tex" 1777331785.59668 4035 325df4a7d9973dca02813f342d75f767 ""
-  "education.tex" 1776133223.09169 833 fe810eb9d2eccdeafeb7dcc3d0b4fe02 ""
-  "employment.tex" 1776134858.74702 1490 4609ebfe83b94682a73a105372a0d8b9 ""
-  "ip.tex" 1776134905.1629 499 6df9fdffe7b08c165710e1d3e0e4d11b ""
-  "publications.tex" 1776134877.66545 715 2f21ec7d9a0dac5493f8a2b9bbf687c6 ""
-  "research_interest.tex" 1776134866.8488 448 6c339cebbfde6736c680860a86520e36 ""
-  "reviewer.tex" 1776134896.35417 456 b7ea089db15549c388c7704968302436 ""
-  "settings.sty" 1769527243.54427 5505 fcaca50be07c4ff269972f472588df3a ""
-  "skills.tex" 1776134901.23887 287 78c79d24645a2436bf5cb0630d8b4d80 ""
-  "teaching.tex" 1776134892.14014 661 6cde5555ec1f78f60bd88a7dc869bf0c ""
+  "awards.tex" 1780537254.25758 1075 7a45ff09831747c55226f7b1a88ed2b8 ""
+  "cv-llt.aux" 1781142931.55989 3899 3a77e38268fcd472b635ecadab70a504 "xelatex"
+  "cv-llt.bbl" 1781142926.06771 39158 c0252e0203cd8adb3dc8bb68b3fa826c "biber cv-llt"
+  "cv-llt.out" 1781142930.98154 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "cv-llt.run.xml" 1781142931.56628 2448 b123e4ed2233b4dadf0b53323ee8af46 "xelatex"
+  "cv-llt.tex" 1780856426.71656 4057 eb0237c16afc08e7a72312cd6d8d895e ""
+  "education.tex" 1780104666.08419 833 fe810eb9d2eccdeafeb7dcc3d0b4fe02 ""
+  "employment.tex" 1780104666.0851 1490 4609ebfe83b94682a73a105372a0d8b9 ""
+  "ip.tex" 1780021615.77935 499 6df9fdffe7b08c165710e1d3e0e4d11b ""
+  "publications.tex" 1780514464.93261 817 306e5a13d53b3c1f3b4b2dd39f5db990 ""
+  "research_interest.tex" 1780538942.21348 441 dae933c61d82f332da2b5ac8bbec54c8 ""
+  "reviewer.tex" 1780713742.47001 394 6c37e7241442b2f8561f41790b9d2881 ""
+  "settings.sty" 1780856299.81765 5506 add01be342fc5774974a51eb53054fb8 ""
+  "skills.tex" 1780104666.08955 287 78c79d24645a2436bf5cb0630d8b4d80 ""
+  "software.tex" 1780537254.25538 490 d1821e2f1b84135d2a1e726bd11dc3cb ""
+  "teaching.tex" 1780713358.50709 574 fa0b4cfcfe4425ebac8df608f1a79b6b ""
   (generated)
   "cv-llt.aux"
   "cv-llt.bcf"

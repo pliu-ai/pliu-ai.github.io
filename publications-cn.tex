@@ -3,28 +3,31 @@
 
 {\large\bfseries\sffamily 代表性论文（第一作者/共同第一作者）\par}
 \begin{itemize}
-\item \textbf{Liu, P.}, \& Zheng, G. Handling imbalanced data: Uncertainty-guided virtual adversarial training with batch nuclear-norm optimization for semi-supervised medical image classification. \textit{IEEE Journal of Biomedical and Health Informatics}, 2022. \textcolor{blue}{\textbf{（JCR Q1，中科院一区，IF=7.7）}}\par
-\vspace{0.1em}{\textit{主要贡献：针对半监督医学图像分类中数据类别不平衡的问题，提出了一种不确定性引导的虚拟对抗训练与批次核范数优化框架，有效提升了极少标注数据下的分类准确性与鲁棒性。}}
-\item \textbf{Liu, P.}, \& Zheng, G. CVCL: Context-aware voxel-wise contrastive learning for label-efficient multi-organ segmentation. \textit{Computers in Biology and Medicine}, 2023. \textcolor{blue}{\textbf{（JCR Q1，IF=7.7）}}\par
-\vspace{0.1em}{\textit{主要贡献：面向标签稀缺的三维医学多器官分割，提出上下文感知的体素级对比学习方法（CVCL），通过引入解剖结构一致性约束，显著提高了模型在半监督场景下的边界分割精度。}}
-\item \textbf{Liu, P.}, \& Zheng, G. Context-aware voxel-wise contrastive learning for label-efficient multi-organ segmentation. \textit{MICCAI}, 2022. \textcolor{blue}{\textbf{（CCF B）}}\par
-\vspace{0.1em}{\textit{主要贡献：首次提出将上下文模块与体素级对比学习结合的半监督分割范式，解决医学图像中器官形态变异大、解剖关系难以建模的痛点。}}
-\item \textbf{Liu, P.}, \& Zheng, G. CR-GloCo: Cross-resolution learning via global-local context consistency for semi-supervised 3D medical segmentation. \textit{Computerized Medical Imaging and Graphics}, 2026. \textcolor{blue}{\textbf{（JCR Q1，IF=4.9）}}\par
-\vspace{0.1em}{\textit{主要贡献：提出了一种基于全局-局部上下文一致性的跨分辨率半监督学习框架（CR-GloCo），有效增强了三维医学图像分割模型对多尺度组织与病灶结构的捕捉能力。}}
-\item \textbf{Liu, P.}, Shen, B., Liu, L., Wang, Q., Zhang, S., Bhardwaj, A., Arganda-Carreras, I., Narayan, K., \& Wei, D. MitoEM 2.0: A benchmark for challenging 3D mitochondria instance segmentation from EM images. Minor Revision at \textit{Scientific Data}. \textcolor{blue}{\textbf{（JCR Q1，IF=6.9）}}\par
-\vspace{0.1em}{\textit{主要贡献：牵头构建了大规模三维电镜线粒体实例分割数据集 MitoEM 2.0，涵盖大量复杂形态的线粒体结构，为领域内基础模型训练与自动校对算法开发提供了重要基准。}}
+\setlength{\itemsep}{0.35em}
+\setlength{\parsep}{0pt}
+\item \textbf{Liu, P.}, \& Zheng, G. \href{https://doi.org/10.1109/JBHI.2022.3162748}{Handling imbalanced data: Uncertainty-guided virtual adversarial training with batch nuclear-norm optimization for semi-supervised medical image classification}. \textit{IEEE Journal of Biomedical and Health Informatics}, 2022. \textcolor{blue}{\textbf{（JCR Q1，中科院一区，IF=7.7）}}\par
+\vspace{0.05em}{\textit{主要贡献：提出不确定性引导 VAT 与批次核范数优化，缓解半监督学习中的少数类偏置；在三项任务（共 148,210 幅图像）上验证，仅用 20\% 标注数据时，ISIC AUC 达 96.04\%（全监督 97.88\%），ChestX-ray14 平均 AUC 达 80.69\%，并在 12/14 个病种上优于 FixMatch。}}
+\item \textbf{Liu, P.}, \& Zheng, G. \href{https://doi.org/10.1016/j.compbiomed.2023.106995}{CVCL: Context-aware voxel-wise contrastive learning for label-efficient multi-organ segmentation}. \textit{Computers in Biology and Medicine}, 2023. \textcolor{blue}{\textbf{（JCR Q1，中科院二区，IF=7.7）}}\par
+\vspace{0.05em}{\textit{主要贡献：提出上下文感知体素级对比学习（CVCL），利用重叠 3D 区域及置信度筛选学习未标注体素；在五个公开 CT 数据集（693 例）上取得五器官平均 DSC 92.5\%、HD95 2.24 mm（次优 DSC 90.8\%，$p=0.028$），在仅 2 例标注 + 12 例未标注的七结构心脏分割中达到 79.4\% DSC。}}
+\item \textbf{Liu, P.}, \& Zheng, G. \href{https://doi.org/10.1007/978-3-031-16440-8_62}{Context-aware voxel-wise contrastive learning for partial label segmentation}. \textit{MICCAI}, 2022. \textcolor{blue}{\textbf{（医学图像计算领域顶级会议，CCF-B）}}\par
+\vspace{0.05em}{\textit{主要贡献：提出面向部分标注数据的上下文感知体素级对比学习，将未标注区域纳入统一优化；在五个公开 CT 数据集上取得 92.5\% 平均 DSC，并验证该损失可迁移至不同 3D 分割骨干。}}
+\item \textbf{Liu, P.}, \& Zheng, G. \href{https://doi.org/10.1016/j.compmedimag.2026.102742}{CR-GLoCo: Cross-resolution global-local consistency learning for semi-supervised 3D medical image segmentation}. \textit{Computerized Medical Imaging and Graphics}, 2026. \textcolor{blue}{\textbf{（JCR Q1，中科院二区，IF=4.9）}}\par
+\vspace{0.05em}{\textit{主要贡献：提出低分辨率全局/高分辨率局部双分支及置信度筛选的跨分辨率互监督；在 BCV、MMWHS、LA 三项任务分别达到 74.0\%、82.2\%、90.0\% DSC，其中 LA 仅用 8 例标注 + 72 例未标注即接近全监督 91.6\%。\href{https://github.com/luckieucas/CR-GLoCo}{[代码]}}}
+\item \textbf{Liu, P.}, Shen, B., Liu, L., Wang, Q., Zhang, S., Bhardwaj, A., Arganda-Carreras, I., Narayan, K., \& Wei, D. \href{https://doi.org/10.1101/2025.11.12.687478}{MitoEM 2.0: Enhanced datasets and benchmarks for advanced mitochondria instance segmentation}. Minor Revision at \textit{Scientific Data}. \textcolor{blue}{\textbf{（JCR Q1，中科院二区，IF=6.9）}}\par
+\vspace{0.05em}{\textit{主要贡献：负责基线模型与评测流程开发，并参与数据预处理、标注和技术验证；构建覆盖 8 个跨物种、组织及成像模态数据集的基准，共 28 个体数据、8,000 余个专家校验线粒体实例，并提出 DCI/EFI 指标量化形态复杂度与空间拥挤度。\href{https://doi.org/10.5281/zenodo.17635006}{[数据]} \href{https://github.com/luckieucas/MitoEM2.0}{[代码]}}}
 \end{itemize}
 
 {\large\bfseries\sffamily 其他期刊与会议论文\par}
 \begin{itemize}
 \item Shi, D., Hou, Y., Yan, Y., Zhang, T.-h., Joesten, W. C., \textbf{Liu, P.}, Wang, Y., Gautam, M., Lim, J., Zheng, L., Gould, J., Ko, B., Niu, X., Cheng, M.-C., Hsieh, J.-C., Levet, F., Cai, D., Draelos, A., Cai, D. J., Wei, D., \& Linghu, C. \textit{Simultaneous brain-wide single-cell recording resolves spatiotemporal memory architecture}. \textcolor{blue}{\textbf{Under Review at \textit{Nature}}}, bioRxiv 2026.
 \item Chen, C.$^*$, \textbf{Liu, P.}$^*$, \& Song, Y. Diagnostic performance for severity grading of hip osteoarthritis and osteonecrosis of femoral head on radiographs: Deep learning model vs. board-certified orthopaedic surgeons. \textit{Osteoarthritis Imaging}, 2023.
-\item \textbf{Liu, P.}, Zhang, M., Gao, X., Li, B., \& Zheng, G. Joint lymphoma lesion segmentation and prognosis prediction from baseline FDG-PET images via multitask convolutional neural networks. \textit{IEEE Access}, 2022. \textcolor{blue}{\textbf{（JCR Q2，IF=4.8）}}
-\item Li, Z., Chen, K., \textbf{Liu, P.}, Chen, X., \& Zheng, G. Entropy and distance maps-guided segmentation of articular cartilage: Data from the Osteoarthritis Initiative. \textit{International Journal of Computer Assisted Radiology and Surgery}, 2022. \textcolor{blue}{\textbf{（JCR Q2，IF=2.7）}}
+\item \textbf{Liu, P.}, Zhang, M., Gao, X., Li, B., \& Zheng, G. Joint lymphoma lesion segmentation and prognosis prediction from baseline FDG-PET images via multitask convolutional neural networks. \textit{IEEE Access}, 2022. \textcolor{blue}{\textbf{（JCR Q2，中科院三区，IF=4.8）}}
+\item Li, Z., Chen, K., \textbf{Liu, P.}, Chen, X., \& Zheng, G. Entropy and distance maps-guided segmentation of articular cartilage: Data from the Osteoarthritis Initiative. \textit{International Journal of Computer Assisted Radiology and Surgery}, 2022. \textcolor{blue}{\textbf{（JCR Q2，中科院三区，IF=2.7）}}
 \item \textbf{Liu, P.}, \& Zheng, G. Semi-supervised learning regularized by adversarial perturbation and diversity maximization. \textit{MLMI}, 2021. \textcolor{blue}{\textbf{（EI）}}
 \item Zhou, Q.$^*$, \textbf{Liu, P.}$^*$, \& Zheng, G. Context-aware CutMix is all you need for universal organ and cancer segmentation. 2023. \textcolor{blue}{\textbf{（EI）}}
-\item Zhou, Q., \textbf{Liu, P.}, \& Zheng, G. Partially supervised multi-organ segmentation via affinity-aware consistency learning and cross-site feature alignment. \textit{MICCAI}, 2023. \textcolor{blue}{\textbf{(CCF-B)}}
+\item Zhou, Q., \textbf{Liu, P.}, \& Zheng, G. Partially supervised multi-organ segmentation via affinity-aware consistency learning and cross-site feature alignment. \textit{MICCAI}, 2023. \textcolor{blue}{\textbf{（医学图像计算领域顶级会议，CCF-B）}}
 \item Wang, M., \textbf{Liu, P.}, Zhao, Y., Wang, B., Wan, J., Nie, L., \& Wei, D. \textit{NuGraph: Graph-Based Reasoning over 3D Primitives for Nucleus Segmentation Correction}. Under review at \textit{IEEE Transactions on Medical Imaging}. (bioRxiv Preprint: 2026.05.16.725603)
+\item Bhardwaj, A., Dell, C. W., Mikolaj, M. R., Spiers, H., Harned, A., Kuppusamy, B., \textbf{Liu, P.}, Wei, D., Sterneck, E., \& Narayan, K. \href{https://doi.org/10.64898/2026.04.02.713930}{NucleoNet and DropNet: Generalist deep learning models for instance segmentation of nuclei and lipid droplets from electron microscopy images}. \textit{bioRxiv}, 2026.04.02.713930, 2026.
 \end{itemize}
 
 {\large\bfseries\sffamily 在研工作\par}
