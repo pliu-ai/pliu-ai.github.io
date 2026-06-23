@@ -445,7 +445,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\textcolor{blue}{\textbf{(JCR Q1, IF=4.9)}}}
+      \field{addendum}{\textcolor{blue}{\textbf{(JCR Q1, IF=5.5)}}}
       \field{journaltitle}{Computerized Medical Imaging and Graphics}
       \field{note}{Accepted and available online (in press)}
       \field{title}{CR-GLoCo: Cross-Resolution Learning via Global-Local Context Consistency for Semi-Supervised 3D Medical Segmentation}
