@@ -614,7 +614,7 @@
       \endverb
       \keyw{preprint}
     \endentry
-    \entry{liu2024mitoem}{unpublished}{}{}
+    \entry{liu2024mitoem}{article}{}{}
       \name{author}{9}{}{%
         {{un=0,uniquepart=base,hash=2c112d9d43345185672db278b5111bc4}{%
            family={Liu},
@@ -685,7 +685,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{\textcolor{blue}{\textbf{(JCR Q1, IF=6.9)}}}
-      \field{note}{Minor Revision at Scientific Data}
+      \field{journaltitle}{Scientific Data}
+      \field{note}{Accepted}
       \field{title}{MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images}
       \field{year}{2025}
       \true{nocite}
