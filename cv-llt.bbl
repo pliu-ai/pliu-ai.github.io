@@ -684,7 +684,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\textcolor{blue}{\textbf{(JCR Q1, IF=6.9)}}}
+      \field{addendum}{\textcolor{blue}{\textbf{(JCR Q1, IF=7.2)}}}
       \field{journaltitle}{Scientific Data}
       \field{note}{Accepted}
       \field{title}{MitoEM 2.0: A Benchmark for Challenging 3D Mitochondria Instance Segmentation from EM Images}
